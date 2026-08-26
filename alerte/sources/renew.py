@@ -13,7 +13,7 @@ from __future__ import annotations
 import time
 from datetime import datetime
 
-import requests
+from .base import ErreurSource, SourceBase, entier
 
 URL_API = "https://fr.renew.auto/wired/commerce/v1/products"
 URL_DETAIL = "https://fr.renew.auto/achat-vehicules-occasions/details.html?productId={pid}"
@@ -24,24 +24,15 @@ PRIX_MIN_PLAUSIBLE = 3000
 # Niveaux de finition Megane E-Tech, du plus simple au plus equipe.
 FINITIONS = ("Equilibre", "Evolution ER", "Evolution", "Techno",
              "esprit Alpine", "Iconic", "Luxury")
-UA = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-)
 
 
-class ErreurSource(RuntimeError):
-    """Echec de recuperation des annonces."""
-
-
-class SourceRenew:
+class SourceRenew(SourceBase):
     nom = "renew"
     libelle = "renew.auto"
 
     def __init__(self, cfg):
-        self.cfg = cfg
-        self.session = requests.Session()
-        self.session.headers.update({"User-Agent": UA, "Accept": "application/json"})
+        super().__init__(cfg)
+        self.session.headers.update({"Accept": "application/json"})
 
     # -- requete -----------------------------------------------------------
     def _filtre_rsql(self) -> str:
@@ -76,15 +67,11 @@ class SourceRenew:
             "page": page,
             "q": self._filtre_rsql(),
         }
+        r = self.get(URL_API, params=params, timeout=60)
         try:
-            r = self.session.get(URL_API, params=params, timeout=60)
-        except requests.RequestException as e:
-            raise ErreurSource("renew.auto injoignable : %s" % e) from e
-        if r.status_code != 200:
-            raise ErreurSource(
-                "renew.auto a repondu %s : %s" % (r.status_code, r.text[:200])
-            )
-        return r.json()
+            return r.json()
+        except ValueError as e:
+            raise ErreurSource("renew.auto : réponse illisible (%s)" % e) from e
 
     def chercher(self) -> list[dict]:
         """Recupere tout l'inventaire du modele, normalise, puis filtre."""
@@ -176,7 +163,7 @@ class SourceRenew:
             "km": v.get("mileage"),
             "annee": int(immat[:4]) if immat[:4].isdigit() else None,
             "date_1re_immat": immat,
-            "batterie_kwh": _entier(batterie.get("type")),
+            "batterie_kwh": entier(batterie.get("type")),
             "batterie_soh": batterie.get("soh"),
             "batterie_capacite_restante_kwh": batterie.get("autonomy"),
             "charge_ac_kw": charge_ac,
@@ -200,62 +187,3 @@ class SourceRenew:
             "vu_le": datetime.now().isoformat(timespec="seconds"),
         }
 
-    # -- filtrage local ----------------------------------------------------
-    def correspond(self, a: dict) -> bool:
-        cfg, rech = self.cfg, self.cfg.recherche
-
-        # Ceinture et bretelles avec le filtre serveur : une annonce non
-        # publiee sur le site n'a pas de fiche consultable, donc rien a
-        # signaler. Ne jamais alerter sur un lien mort.
-        if not a.get("publiee_sur_le_site"):
-            return False
-
-        if cfg.batterie_kwh and not _est_batterie(a, cfg.batterie_kwh):
-            return False
-
-        annee = a.get("annee")
-        if rech.get("annee_min") and (annee is None or annee < int(rech["annee_min"])):
-            return False
-        if rech.get("annee_max") and (annee is None or annee > int(rech["annee_max"])):
-            return False
-
-        # Prix inconnu : on ne filtre pas dessus, mieux vaut une annonce a
-        # verifier a la main qu'une bonne affaire silencieusement ecartee.
-        prix = a.get("prix")
-        if prix is not None:
-            if rech.get("prix_max") and prix > float(rech["prix_max"]):
-                return False
-            if rech.get("prix_min") and prix < float(rech["prix_min"]):
-                return False
-
-        km = a.get("km")
-        if rech.get("km_max") and (km is None or km > float(rech["km_max"])):
-            return False
-
-        soh = a.get("batterie_soh")
-        if rech.get("soh_min") and (soh is None or soh < float(rech["soh_min"])):
-            return False
-
-        deps = cfg.departements
-        if deps and a.get("departement") not in deps:
-            return False
-
-        if rech.get("exclure_reserves") and a.get("reserve"):
-            return False
-
-        return True
-
-
-def _entier(valeur):
-    try:
-        return int(valeur)
-    except (TypeError, ValueError):
-        return None
-
-
-def _est_batterie(a: dict, kwh: int) -> bool:
-    """EV60/EV40 : `battery.type` est la source fiable, le libelle de version
-    sert de repli (155 EV60 du stock n'ont pas "EV60" dans leur libelle)."""
-    if a.get("batterie_kwh") is not None:
-        return a["batterie_kwh"] == int(kwh)
-    return "EV%d" % int(kwh) in (a.get("titre") or "").upper()

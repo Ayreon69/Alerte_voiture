@@ -1,8 +1,17 @@
 # Alerte Mégane E-Tech EV60
 
-Surveillance automatique des annonces de **Renault Mégane E-Tech électrique EV60, 2023 ou plus récente**, sur [renew.auto](https://fr.renew.auto) (le site officiel des occasions Renault). Dès qu'une annonce apparaît, une notification tombe sur Discord.
+Surveillance automatique des annonces de **Renault Mégane E-Tech électrique EV60, 2023 ou plus récente**, sur [renew.auto](https://fr.renew.auto) et [AutoScout24](https://www.autoscout24.fr). Dès qu'une annonce apparaît, une notification tombe sur Discord.
 
-Environ **890 véhicules** correspondent aux critères en France, avec **~10 nouvelles annonces par jour**. Prix de 19 990 € à 35 990 €, médiane 25 390 €.
+Environ **1000 véhicules** correspondent aux critères en France. Prix de 19 990 € à 40 990 €, médiane 25 490 €.
+
+| Source | Annonces | Apport |
+|---|---|---|
+| renew.auto | 887 | Plateforme nationale Renault. Seule à publier l'**état de santé de la batterie** |
+| AutoScout24 | +119 | Stock des concessions (Autosphere surtout) absent de la plateforme nationale |
+
+Les 33 voitures publiées sur les deux sites ne sont notifiées qu'une fois : le
+dédoublonnage se fait sur la plaque d'immatriculation, que renew.auto publie
+directement et qu'AutoScout24 glisse dans son identifiant interne.
 
 ---
 
@@ -189,6 +198,35 @@ confirme que tout fonctionne.
 À partir de là, c'est autonome : une vérification par heure, ton ordinateur peut
 rester éteint.
 
+### Modifier les critères une fois en ligne
+
+Le bot tourne sur GitHub : éditer `config.yaml` sur ta machine ne change rien
+tant que ce n'est pas poussé. Et comme le bot commite sa mémoire à chaque
+nouveauté, ton dépôt local est presque toujours en retard — d'où le `git pull`
+en premier.
+
+```bash
+git pull
+```
+
+Édite `config.yaml`, puis :
+
+```bash
+git add config.yaml
+```
+
+```bash
+git commit -m "Ajuste les critères de recherche"
+```
+
+```bash
+git push
+```
+
+Le changement s'applique au passage suivant. Plus simple encore : `config.yaml`
+est éditable directement sur GitHub (onglet *Code* → le fichier → l'icône
+crayon → *Commit changes*), ce qui évite tout conflit.
+
 ### Bon à savoir
 
 **La fréquence.** Une fois par heure par défaut (`cron: "7 * * * *"` dans
@@ -307,13 +345,24 @@ Pour distinguer EV60 et EV40, le champ `battery.type` fait foi : 155 EV60 du sto
 
 ## Ajouter un autre site
 
-Chaque source est une classe dans `alerte/sources/` exposant `chercher()` et renvoyant des annonces au format normalisé (voir `SourceRenew.normaliser`). Il suffit ensuite de l'enregistrer dans `SOURCES` (`alerte/sources/__init__.py`) — le reste (comparaison, notifications, export) fonctionne sans modification.
+Chaque source hérite de `SourceBase` (`alerte/sources/base.py`), expose
+`chercher()` et renvoie des annonces au format normalisé. Le filtrage sur les
+critères, les réessais réseau et le dédoublonnage sont fournis par le socle : une
+nouvelle source n'a qu'à récupérer et traduire les données. Il reste à
+l'enregistrer dans `CATALOGUE` (`alerte/sources/__init__.py`) et à l'ajouter à
+`sources` dans `config.yaml`.
 
-Repérages déjà faits sur les autres sites :
+Les champs qu'un site ne publie pas restent vides plutôt qu'inventés, et
+l'affichage s'adapte : AutoScout24 ne donne ni l'état de santé batterie, ni la
+couleur, ni la date de publication, donc ces lignes disparaissent de la fiche au
+lieu d'afficher des points d'interrogation.
 
-| Site | Accessible en direct | Remarque |
+Repérages faits sur les autres sites :
+
+| Site | Accessible | Remarque |
 |---|---|---|
-| AutoScout24 | oui | Bon candidat pour la prochaine source |
-| Autohero | oui | Stock national, à explorer |
-| Leboncoin | non (403) | Protection anti-bot, nécessiterait Playwright |
+| renew.auto | oui | **Intégré.** API JSON officielle |
+| AutoScout24 | oui | **Intégré.** Données en JSON dans `__NEXT_DATA__` |
+| Leboncoin | non (403) | Protection anti-bot, nécessiterait un navigateur automatisé |
 | La Centrale | non (403) | Idem |
+| Aramisauto, Autohero | à explorer | URLs de recherche non identifiées lors du repérage |

@@ -4,9 +4,20 @@
 # ---------------------------------------------------------------------------
 
 recherche:
+  # Sites interrogés, par ordre de priorité. Quand la même voiture est publiée
+  # sur plusieurs sites (repérée par sa plaque), c'est la version du premier
+  # site de la liste qui est retenue — renew.auto en tête car lui seul publie
+  # l'état de santé de la batterie.
+  # Retirer un nom de la liste désactive le site.
+  sources: [renew, autoscout24]
+
   # Modèle ciblé sur renew.auto (valeurs exactes de l'API)
   marque: RENAULT
   modele: MEGANE E-TECH ELECTRIQUE
+
+  # Nom court du modèle, pour les sites qui indexent "megane" tout court
+  # (AutoScout24). Par défaut : le premier mot de `modele`.
+  modele_court: megane
 
   # Plateforme de publication. NATIONAL = annonces visibles sur fr.renew.auto.
   # Ne pas changer sans raison : les autres valeurs remontent des vehicules

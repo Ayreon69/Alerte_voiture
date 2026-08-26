@@ -31,7 +31,7 @@ from alerte.notify import (
 )
 from alerte.format import euros
 from alerte.report import exporter_csv, par_prix
-from alerte.sources import SOURCES, ErreurSource
+from alerte.sources import ErreurSource, sources_pour
 from alerte.store import Etat, journaliser
 
 # En dessous de cette fraction de l'inventaire connu, on considere que la
@@ -55,7 +55,7 @@ def collecter(cfg: Config) -> tuple[list[dict], list[str]]:
     mais l'une est une panne à signaler et l'autre une information.
     """
     annonces, echecs = [], []
-    for nom, classe in SOURCES.items():
+    for nom, classe in sources_pour(cfg).items():
         source = classe(cfg)
         print("  interrogation de %s..." % source.libelle, end=" ", flush=True)
         try:
@@ -67,7 +67,28 @@ def collecter(cfg: Config) -> tuple[list[dict], list[str]]:
             continue
         print("%d annonces correspondent aux critères" % len(trouvees))
         annonces.extend(trouvees)
-    return annonces, echecs
+    return dedoublonner(annonces), echecs
+
+
+def dedoublonner(annonces: list[dict]) -> list[dict]:
+    """Une même voiture publiée sur deux sites ne doit alerter qu'une fois.
+
+    La plaque d'immatriculation sert de clé : renew.auto la publie, et
+    AutoScout24 la glisse dans son `crossReferenceId`. On garde la version de
+    la source arrivée en premier, l'ordre de `sources` en configuration allant
+    de la plus riche à la moins riche.
+    """
+    vues, sortie = {}, []
+    for a in annonces:
+        cle = (a.get("immatriculation") or "").upper().replace(" ", "")
+        if cle and cle in vues:
+            vues[cle]["aussi_sur"].append(a["source"])
+            continue
+        a["aussi_sur"] = []
+        if cle:
+            vues[cle] = a
+        sortie.append(a)
+    return sortie
 
 
 def evenement(type_: str, a: dict, prix_avant=None) -> dict:

@@ -166,6 +166,26 @@ class Contexte:
         return sortie[:4]
 
 
+LIBELLES_SOURCES = {
+    "renew": "renew.auto",
+    "autoscout24": "AutoScout24",
+}
+
+
+def _pied_de_page(a: dict) -> str:
+    """Provenance, date de publication si connue, immatriculation."""
+    bouts = [LIBELLES_SOURCES.get(a.get("source"), a.get("source") or "?")]
+    aussi = [LIBELLES_SOURCES.get(s, s) for s in (a.get("aussi_sur") or [])]
+    if aussi:
+        bouts.append("aussi sur " + ", ".join(aussi))
+    if a.get("date_publication"):
+        bouts.append("publiée le %s" % date_longue(a["date_publication"]))
+    identifiant = a.get("immatriculation") or (a.get("vin") or "")[:8]
+    if identifiant:
+        bouts.append(identifiant)
+    return "  ·  ".join(bouts)
+
+
 # -- indicateurs derives ---------------------------------------------------
 def jours_en_ligne(a: dict) -> int | None:
     """Depuis combien de jours l'annonce est publiee."""
@@ -269,11 +289,7 @@ def embed_annonce(
         "url": a.get("url"),
         "color": couleur,
         "fields": champs,
-        "footer": {
-            "text": "renew.auto  ·  publiée le %s  ·  %s"
-            % (date_longue(a.get("date_publication")),
-               a.get("immatriculation") or (a.get("vin") or "")[:8])
-        },
+        "footer": {"text": _pied_de_page(a)},
     }
     if lignes:
         embed["description"] = "\n".join(lignes)[:1000]

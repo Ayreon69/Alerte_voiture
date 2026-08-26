@@ -115,10 +115,14 @@ def telephone(numero: str) -> str:
 
 
 def _date(valeur: str):
-    try:
-        return datetime.strptime(valeur[:10], "%Y-%m-%d").date()
-    except (ValueError, TypeError):
-        return None
+    """Accepte '2023-06-08' et '2023-06' : AutoScout24 ne publie que le mois
+    de premiere immatriculation. Le mois seul est ramene au 1er."""
+    for gabarit, longueur in (("%Y-%m-%d", 10), ("%Y-%m", 7)):
+        try:
+            return datetime.strptime(valeur[:longueur], gabarit).date()
+        except (ValueError, TypeError):
+            continue
+    return None
 
 
 def mois_annee(valeur: str) -> str:

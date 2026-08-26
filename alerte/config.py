@@ -52,6 +52,21 @@ class Config:
         return self.recherche.get("modele") or "MEGANE E-TECH ELECTRIQUE"
 
     @property
+    def modele_court(self) -> str:
+        """Nom de modele court, pour les sites qui indexent "megane" et non
+        "MEGANE E-TECH ELECTRIQUE"."""
+        return self.recherche.get("modele_court") or self.modele.split()[0]
+
+    @property
+    def sources_actives(self) -> list[str]:
+        """Sources a interroger, dans l'ordre de priorite pour le
+        dedoublonnage entre sites."""
+        valeur = self.recherche.get("sources")
+        if not valeur:
+            return ["renew", "autoscout24"]
+        return [str(v).strip().lower() for v in valeur]
+
+    @property
     def plateforme(self) -> str:
         """Plateforme de publication exigee (NATIONAL pour fr.renew.auto)."""
         return self.recherche.get("plateforme") or "NATIONAL"
