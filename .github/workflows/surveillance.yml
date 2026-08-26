@@ -51,9 +51,15 @@ jobs:
       # exécution repartirait de zéro et ne détecterait jamais de nouveauté.
       - name: Mémoriser les annonces vues
         run: |
+          if [ ! -f data/state.json ]; then
+            echo "::error::Aucun état produit : le passage précédent n'a rien récupéré."
+            exit 1
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/          # annonces.csv est exclu par .gitignore
+          git add data/state.json
+          # historique.csv n'existe que dès qu'un premier événement a eu lieu
+          if [ -f data/historique.csv ]; then git add data/historique.csv; fi
           if git diff --quiet --cached; then
             echo "aucun changement à enregistrer"
             exit 0

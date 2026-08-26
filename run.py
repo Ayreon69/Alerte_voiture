@@ -47,9 +47,14 @@ def horodatage() -> str:
     return datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
 
-def collecter(cfg: Config) -> list[dict]:
-    """Interroge toutes les sources configurées."""
-    annonces = []
+def collecter(cfg: Config) -> tuple[list[dict], list[str]]:
+    """Interroge toutes les sources. Retourne (annonces, échecs).
+
+    Distinguer les deux est essentiel pour un bot non surveillé : une source
+    injoignable et une recherche sans résultat produisent la même liste vide,
+    mais l'une est une panne à signaler et l'autre une information.
+    """
+    annonces, echecs = [], []
     for nom, classe in SOURCES.items():
         source = classe(cfg)
         print("  interrogation de %s..." % source.libelle, end=" ", flush=True)
@@ -58,10 +63,11 @@ def collecter(cfg: Config) -> list[dict]:
         except ErreurSource as e:
             print("ÉCHEC")
             print("    %s" % e)
+            echecs.append("%s : %s" % (source.libelle, e))
             continue
         print("%d annonces correspondent aux critères" % len(trouvees))
         annonces.extend(trouvees)
-    return annonces
+    return annonces, echecs
 
 
 def evenement(type_: str, a: dict, prix_avant=None) -> dict:
@@ -84,9 +90,14 @@ def evenement(type_: str, a: dict, prix_avant=None) -> dict:
 def verifier(cfg: Config, notif: Notificateur, forcer_alertes: bool = False) -> int:
     """Une passe complète. Retourne le nombre d'annonces suivies."""
     print("\n[%s] vérification" % horodatage())
-    annonces = collecter(cfg)
+    annonces, echecs = collecter(cfg)
+
+    # Une panne de source doit faire échouer l'exécution, pas passer pour un
+    # marché vide : sur GitHub Actions, c'est ce qui déclenche l'alerte d'échec.
+    if echecs and not annonces:
+        raise ErreurSource(" | ".join(echecs))
     if not annonces:
-        print("  aucune annonce récupérée : source indisponible ou critères trop stricts")
+        print("  aucune annonce ne correspond aux critères")
         return 0
 
     etat = Etat(FICHIER_ETAT)
@@ -195,7 +206,7 @@ def verifier(cfg: Config, notif: Notificateur, forcer_alertes: bool = False) -> 
 
 
 def lister(cfg: Config, nombre: int) -> None:
-    annonces = collecter(cfg)
+    annonces, _ = collecter(cfg)
     tri = sorted(annonces, key=par_prix)
     print("\n%d annonces  ·  les %d moins chères :\n" % (len(annonces), min(nombre, len(tri))))
     for i, a in enumerate(tri[:nombre], 1):
@@ -256,7 +267,11 @@ def main(argv=None) -> int:
         print("attention : DISCORD_WEBHOOK_URL absent du .env, notifications désactivées")
 
     if not args.watch:
-        verifier(cfg, notif, args.forcer_alertes)
+        try:
+            verifier(cfg, notif, args.forcer_alertes)
+        except ErreurSource as e:
+            print("échec : %s" % e)
+            return 1
         return 0
 
     minutes = args.intervalle or int(cfg.execution.get("intervalle_minutes") or 30)
