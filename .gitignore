@@ -1,0 +1,11 @@
+# Secrets : ne doit JAMAIS partir sur GitHub.
+# En ligne, l'URL du webhook passe par les secrets du dépôt.
+.env
+
+# Inventaire complet réexporté à chaque passage : trop volumineux et trop
+# changeant pour être versionné. data/state.json et data/historique.csv, eux,
+# sont suivis : ce sont eux qui donnent au bot sa mémoire entre deux exécutions.
+data/annonces.csv
+
+__pycache__/
+*.pyc

@@ -1,0 +1,63 @@
+name: Surveillance Mégane
+
+# Tourne sur les serveurs de GitHub : aucune machine à laisser allumée.
+#
+# Par défaut toutes les heures. Pour passer à 30 minutes, remplacer par
+# "*/30 * * * *" — voir la note sur les minutes incluses dans le README.
+# L'heure est en UTC, et GitHub exécute les tâches planifiées « au mieux » :
+# un retard de 5 à 20 minutes est normal et sans importance ici.
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:        # bouton « Run workflow » pour lancer à la demande
+
+# Deux exécutions simultanées se marcheraient dessus en réécrivant l'état.
+concurrency:
+  group: surveillance
+  cancel-in-progress: false
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write       # nécessaire pour recommitter l'état
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Chercher les nouvelles annonces
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python run.py
+
+      # Inventaire complet du jour, téléchargeable depuis la page du run.
+      - name: Publier l'inventaire
+        uses: actions/upload-artifact@v4
+        with:
+          name: annonces
+          path: data/annonces.csv
+          retention-days: 7
+
+      # L'état mémorise les annonces déjà vues. Sans cette étape, chaque
+      # exécution repartirait de zéro et ne détecterait jamais de nouveauté.
+      - name: Mémoriser les annonces vues
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/          # annonces.csv est exclu par .gitignore
+          if git diff --quiet --cached; then
+            echo "aucun changement à enregistrer"
+            exit 0
+          fi
+          git commit -m "surveillance : $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase --autostash
+          git push

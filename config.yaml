@@ -1,0 +1,46 @@
+# ---------------------------------------------------------------------------
+# Alerte Mégane E-Tech EV60 — critères de recherche
+# Modifie ce fichier puis relance : python run.py
+# ---------------------------------------------------------------------------
+
+recherche:
+  # Modèle ciblé sur renew.auto (valeurs exactes de l'API)
+  marque: RENAULT
+  modele: MEGANE E-TECH ELECTRIQUE
+
+  # Plateforme de publication. NATIONAL = annonces visibles sur fr.renew.auto.
+  # Ne pas changer sans raison : les autres valeurs remontent des vehicules
+  # dont la fiche n'existe pas sur le site (page 410).
+  plateforme: NATIONAL
+
+  # Batterie : 60 = EV60, 40 = EV40, null = les deux
+  batterie_kwh: 60
+
+  # Année de 1re mise en circulation minimum (incluse)
+  annee_min: 2023
+  annee_max: null
+
+  # Filtres optionnels — laisse null pour ne pas filtrer
+  prix_max: null            # ex: 22000
+  prix_min: null
+  km_max: null              # ex: 60000
+  soh_min: null             # état de santé batterie en %, ex: 92
+  departements: null        # ex: [75, 77, 78, 91, 92, 93, 94, 95]
+  exclure_reserves: false   # true = ignorer les véhicules déjà réservés
+
+alertes:
+  # Notifier une baisse de prix sur une annonce déjà connue
+  baisses_de_prix: true
+  # Seuil minimum (en €) pour notifier une baisse
+  baisse_min_eur: 200
+  # Notifier quand une annonce disparaît (vendue / retirée)
+  annonces_disparues: false
+  # Nombre max d'annonces détaillées envoyées par exécution
+  # (au-delà, un simple résumé est envoyé — évite le spam au premier run)
+  max_notifications: 20
+
+execution:
+  # Intervalle par défaut du mode --watch, en minutes
+  intervalle_minutes: 30
+  # Pause entre deux pages d'API (politesse)
+  delai_entre_pages_s: 1.0
