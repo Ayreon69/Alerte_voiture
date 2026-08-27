@@ -2,13 +2,21 @@ name: Surveillance Mégane
 
 # Tourne sur les serveurs de GitHub : aucune machine à laisser allumée.
 #
-# Par défaut toutes les heures. Pour passer à 30 minutes, remplacer par
-# "*/30 * * * *" — voir la note sur les minutes incluses dans le README.
-# L'heure est en UTC, et GitHub exécute les tâches planifiées « au mieux » :
-# un retard de 5 à 20 minutes est normal et sans importance ici.
+# Deux passages par heure, à 23 et 53. L'heure est en UTC.
+#
+# Les minutes sont choisies, pas arbitraires. GitHub exécute les tâches
+# planifiées « au mieux » : en période de charge il les retarde, puis les
+# abandonne purement et simplement. Le début d'heure est le pic mondial — c'est
+# là que tout le monde planifie — et les dépôts gratuits y passent en dernier.
+# Un cron à "7 * * * *" a été sauté 4 fois de suite le 27/08/2026, le seul
+# passage abouti ayant démarré avec 21 minutes de retard.
+#
+# D'où les deux corrections : des minutes loin du pic, et deux créneaux plutôt
+# qu'un, pour qu'un créneau perdu coûte 30 minutes et non une heure. Chaque
+# passage consomme environ une minute sur les 2000 gratuites mensuelles.
 on:
   schedule:
-    - cron: "7 * * * *"
+    - cron: "23,53 * * * *"
   workflow_dispatch:        # bouton « Run workflow » pour lancer à la demande
 
 # Deux exécutions simultanées se marcheraient dessus en réécrivant l'état.
