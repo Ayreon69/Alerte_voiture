@@ -259,9 +259,53 @@ tout bonnement **abandonné**. Observé sur ce dépôt le 27/08/2026 avec un cro
 
 Le début d'heure est le pic mondial — c'est là que tout le monde planifie — et
 les dépôts gratuits y passent en dernier. D'où les minutes 23 et 53, choisies
-loin du pic. Aucun réglage ne rend ce déclencheur fiable à 100 % : si les
-alertes s'espacent sans raison, vérifier l'onglet *Actions* avant de soupçonner
-une panne du bot, et au besoin lancer un passage à la main avec *Run workflow*.
+loin du pic.
+
+**Ça n'a pas suffi.** Sur ce dépôt, le planificateur n'a servi qu'**un créneau
+sur treize** le jour de la mise en route, décalage compris. Le workflow était
+`active`, le cron valide, et les déclenchements manuels marchaient : GitHub ne
+sert simplement pas ce dépôt. Le `schedule` est donc conservé en filet — s'il
+tombe, tant mieux — mais la surveillance ne repose plus sur lui.
+
+### Le déclencheur externe
+
+Un service tiers appelle l'API GitHub à heure fixe, ce qui sort complètement le
+planificateur de la boucle. C'est la seule façon d'obtenir une cadence
+réellement régulière.
+
+L'appel à reproduire, toutes les 30 minutes :
+
+```
+POST https://api.github.com/repos/TON-COMPTE/TON-DEPOT/actions/workflows/surveillance.yml/dispatches
+Authorization: Bearer TON_TOKEN
+Accept: application/vnd.github+json
+X-GitHub-Api-Version: 2022-11-28
+
+{"ref": "main"}
+```
+
+Une réponse **204** signifie que le passage est lancé.
+
+**Créer le token** — [github.com/settings/personal-access-tokens/new](https://github.com/settings/personal-access-tokens/new),
+en *fine-grained* pour qu'il ne puisse rien faire d'autre :
+
+- *Repository access* → **Only select repositories** → ce dépôt uniquement
+- *Repository permissions* → **Actions : Read and write** (rien d'autre)
+- *Expiration* → une date, pas *No expiration*
+
+Ainsi limité, un token qui fuiterait ne permettrait que de déclencher des
+passages sur ce seul dépôt. Il reste à noter la date d'expiration : le jour où
+le token expire, la surveillance s'arrête en silence.
+
+**Où le faire tourner** — [cron-job.org](https://cron-job.org) est gratuit et
+suffit (créer le cronjob, méthode POST, coller les en-têtes et le corps
+ci-dessus). Le token y est confié à un tiers ; pour l'éviter, un *Cloudflare
+Worker* avec un Cron Trigger fait la même chose en gardant le token dans tes
+propres secrets, au prix d'un peu plus de mise en place.
+
+Si les alertes s'espacent sans raison, vérifier l'onglet *Actions* avant de
+soupçonner une panne du bot, et au besoin lancer un passage à la main avec
+*Run workflow*.
 
 **Après 60 jours sans activité**, GitHub désactive les workflows planifiés. Le
 bot commite son état à chaque nouveauté, ce qui entretient l'activité ; si la
