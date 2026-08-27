@@ -169,7 +169,12 @@ class Etat:
             if empreinte:
                 fiche["plaque_empreinte"] = empreinte
             fiche["premiere_vue"] = ancien.get("premiere_vue") or maintenant
-            fiche["derniere_vue"] = maintenant
+            # A la journee, pas a la seconde : ce champ n'est lu par personne,
+            # il ne sert qu'a se reperer en ouvrant le fichier. Horodate a la
+            # seconde, il changeait pour les mille annonces a chaque passage --
+            # soit un fichier de 600 Ko reecrit en entier 48 fois par jour, et
+            # un depot qui enflait d'environ un gigaoctet par an pour rien.
+            fiche["derniere_vue"] = maintenant[:10]
             nouvel_etat[a["id"]] = fiche
 
         for ident, fiche in self.annonces.items():
