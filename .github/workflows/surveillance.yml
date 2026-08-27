@@ -73,5 +73,35 @@ jobs:
             exit 0
           fi
           git commit -m "surveillance : $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git pull --rebase --autostash
-          git push
+
+          # Deux passages rapproches partent du meme commit : le second se
+          # retrouve perime au moment de pousser, et un `pull --rebase` bute
+          # alors sur un conflit que personne n'est la pour resoudre. Or ces
+          # deux fichiers se fusionnent sans ambiguite :
+          #   - state.json est un instantane, le plus recent fait foi ;
+          #   - historique.csv est un journal, on garde les lignes des deux.
+          for tentative in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "::notice::Le depot a bouge, fusion et nouvel essai ($tentative/3)"
+            git fetch origin main
+            git show origin/main:data/historique.csv > /tmp/journal-distant.csv 2>/dev/null || true
+            if ! git rebase --strategy-option=theirs origin/main; then
+              git rebase --abort
+              echo "::error::Rebase impossible, etat non enregistre."
+              exit 1
+            fi
+            # Le rebase a garde notre journal : on y reinjecte les lignes de
+            # l'autre passage. L'horodatage ISO ouvre chaque ligne, donc le tri
+            # alphabetique remet l'ensemble dans l'ordre chronologique.
+            if [ -s /tmp/journal-distant.csv ] && [ -f data/historique.csv ]; then
+              {
+                head -1 data/historique.csv
+                { tail -n +2 /tmp/journal-distant.csv; tail -n +2 data/historique.csv; } | sort -u
+              } > /tmp/journal-fusionne.csv
+              mv /tmp/journal-fusionne.csv data/historique.csv
+              git add data/historique.csv
+              git commit --amend --no-edit
+            fi
+          done
+          echo "::error::Push impossible apres 3 tentatives."
+          exit 1
