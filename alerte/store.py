@@ -18,7 +18,7 @@ import os
 from datetime import datetime, timedelta
 from pathlib import Path
 
-from .identite import cles_identite, plaques_incompatibles
+from .identite import cles_identite, plaque_de, plaques_incompatibles
 
 CHAMPS_SUIVIS = ("prix", "km", "reserve")
 
@@ -31,8 +31,11 @@ CHAMPS_MEMOIRE = (
     "id", "url", "titre", "prix", "km", "annee", "batterie_soh",
     "ville", "departement", "reserve",
     # De quoi reconnaitre le vehicule meme si l'identifiant change (voir
-    # `identites`). Deux champs courts, sans effet notable sur la taille.
-    "immatriculation", "date_1re_immat",
+    # alerte/identite.py). La plaque n'est PAS stockee en clair : cet etat est
+    # versionne, et une plaque est une donnee personnelle qui resterait a vie
+    # dans l'historique git. Seule son empreinte est conservee, ce qui suffit
+    # a comparer.
+    "date_1re_immat",
 )
 
 # L'index de renew.auto n'est pas parfaitement stable : une annonce peut
@@ -162,6 +165,9 @@ class Etat:
             if ancien and ancien.get("id") and ancien["id"] != a["id"]:
                 remplacees.add(ancien["id"])
             fiche = {c: a.get(c) for c in CHAMPS_MEMOIRE}
+            empreinte = plaque_de(a)
+            if empreinte:
+                fiche["plaque_empreinte"] = empreinte
             fiche["premiere_vue"] = ancien.get("premiere_vue") or maintenant
             fiche["derniere_vue"] = maintenant
             nouvel_etat[a["id"]] = fiche

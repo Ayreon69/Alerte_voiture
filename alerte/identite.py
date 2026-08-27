@@ -17,9 +17,28 @@ nouveauté. Mesuré le 27/08/2026 : 121 fausses nouvelles sur 122, puis 18 sur 2
 """
 from __future__ import annotations
 
+import hashlib
+
 
 def plaque_de(a: dict) -> str:
-    return (a.get("immatriculation") or "").upper().replace(" ", "")
+    """Empreinte de la plaque, jamais la plaque elle-meme.
+
+    Une plaque est une donnee personnelle : elle designe indirectement un
+    proprietaire. Or `state.json` est versionne, et le depot peut etre public
+    — une plaque qui y entre y reste, dans l'historique git, indefiniment.
+
+    Comparer suffit : ni le dedoublonnage ni la memoire n'ont besoin de relire
+    la plaque, seulement de savoir si deux annonces portent la meme. On ne
+    manipule donc que son empreinte. La plaque en clair reste dans l'annonce
+    courante, le temps du passage, et s'affiche dans la fiche Discord.
+
+    Les fiches deja en memoire fournissent directement leur empreinte ; les
+    annonces fraiches la font calculer depuis la plaque.
+    """
+    brute = (a.get("immatriculation") or "").upper().replace(" ", "")
+    if brute:
+        return hashlib.sha256(brute.encode()).hexdigest()[:16]
+    return a.get("plaque_empreinte") or ""
 
 
 def cles_identite(a: dict) -> list:
