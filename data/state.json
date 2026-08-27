@@ -1,5 +1,5 @@
 {
- "derniere_execution": "2026-08-27T16:30:58",
+ "derniere_execution": "2026-08-27T17:01:12",
  "nb_annonces": 1049,
  "annonces": {
   "autoscout24:0003d393-bb16-40bc-9e3d-10c5aa9ecd03": {
@@ -16,8 +16,7 @@
    "date_1re_immat": "2023-06",
    "plaque_empreinte": "fd5175eafbab8c8b",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:01d6e171-a11e-4493-bd65-545650eb3443": {
    "id": "autoscout24:01d6e171-a11e-4493-bd65-545650eb3443",
@@ -321,8 +320,7 @@
    "date_1re_immat": "2025-09",
    "plaque_empreinte": "5391f621dac985a2",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:20cba7d3-8b52-4cc1-a6c1-f3bc278e7b40": {
    "id": "autoscout24:20cba7d3-8b52-4cc1-a6c1-f3bc278e7b40",
@@ -418,8 +416,7 @@
    "date_1re_immat": "2023-06",
    "plaque_empreinte": "2ac29348ddc535e1",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:2f5578a3-6dec-4bf0-9eff-f39edacd2435": {
    "id": "autoscout24:2f5578a3-6dec-4bf0-9eff-f39edacd2435",
@@ -515,8 +512,7 @@
    "date_1re_immat": "2023-05",
    "plaque_empreinte": "1a4ca245af96469a",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:34ce9cf2-d4ae-44c1-9f03-0589482261a5": {
    "id": "autoscout24:34ce9cf2-d4ae-44c1-9f03-0589482261a5",
@@ -823,8 +819,7 @@
    "date_1re_immat": "2023-05",
    "plaque_empreinte": "5809c254a3140f2d",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:581323f5-6e31-449b-aafd-cd854e0d78fd": {
    "id": "autoscout24:581323f5-6e31-449b-aafd-cd854e0d78fd",
@@ -837,9 +832,10 @@
    "ville": "SARREGUEMINES",
    "departement": "57",
    "reserve": false,
+   "date_1re_immat": "2023-04",
+   "plaque_empreinte": "e3fb9095553116f4",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27T08:57:01",
-   "absente_depuis": "2026-08-27T12:46:15"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:59ada823-ed82-4a5a-8092-ac41ce78d921": {
    "id": "autoscout24:59ada823-ed82-4a5a-8092-ac41ce78d921",
@@ -919,8 +915,7 @@
    "date_1re_immat": "2023-05",
    "plaque_empreinte": "9f19f2bb2e28a2fd",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:611dd64e-b4a7-4c8b-bb50-99e2d39c2f95": {
    "id": "autoscout24:611dd64e-b4a7-4c8b-bb50-99e2d39c2f95",
@@ -952,8 +947,7 @@
    "date_1re_immat": "2023-05",
    "plaque_empreinte": "ededd3fae60cbcd6",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:62c362ff-f925-47d3-81be-d10fb446b0ee": {
    "id": "autoscout24:62c362ff-f925-47d3-81be-d10fb446b0ee",
@@ -1210,8 +1204,7 @@
    "date_1re_immat": "2023-08",
    "plaque_empreinte": "07c5648bb82afb0e",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:82996a69-bd2d-4f03-a982-ab3b189d4604": {
    "id": "autoscout24:82996a69-bd2d-4f03-a982-ab3b189d4604",
@@ -1436,8 +1429,7 @@
    "date_1re_immat": "2023-06",
    "plaque_empreinte": "49c217682b9bd32e",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:9cd02a70-d8fa-441c-9cfa-f419bd187226": {
    "id": "autoscout24:9cd02a70-d8fa-441c-9cfa-f419bd187226",
@@ -1722,9 +1714,10 @@
    "ville": "SARREGUEMINES",
    "departement": "57",
    "reserve": false,
+   "date_1re_immat": "2023-03",
+   "plaque_empreinte": "f320a4d82288fb84",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27T08:57:01",
-   "absente_depuis": "2026-08-27T12:46:15"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:bab336ee-9101-4678-a4af-85ce1371a040": {
    "id": "autoscout24:bab336ee-9101-4678-a4af-85ce1371a040",
@@ -1740,8 +1733,7 @@
    "date_1re_immat": "2025-03",
    "plaque_empreinte": "c5c56b565a05072e",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:bbcff252-7419-4576-bf6b-5a7c709998be": {
    "id": "autoscout24:bbcff252-7419-4576-bf6b-5a7c709998be",
@@ -1805,8 +1797,7 @@
    "date_1re_immat": "2023-05",
    "plaque_empreinte": "a28eabd3880db4c7",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:c6090f62-5b73-4fba-be2d-389932bdc7d0": {
    "id": "autoscout24:c6090f62-5b73-4fba-be2d-389932bdc7d0",
@@ -1870,8 +1861,7 @@
    "date_1re_immat": "2023-10",
    "plaque_empreinte": "f9e089eb1a81b657",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:cb3833b1-0703-495d-9e77-550a2c5e5eed": {
    "id": "autoscout24:cb3833b1-0703-495d-9e77-550a2c5e5eed",
@@ -2079,8 +2069,7 @@
    "date_1re_immat": "2023-06",
    "plaque_empreinte": "9dc39da26313d8fa",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:e6ad9be9-899b-42eb-8bd3-28d4e3ac7f0d": {
    "id": "autoscout24:e6ad9be9-899b-42eb-8bd3-28d4e3ac7f0d",
@@ -2208,8 +2197,7 @@
    "date_1re_immat": "2023-06",
    "plaque_empreinte": "bb09cc96af8ccb4b",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:f4070318-0058-4613-8c02-f4f541ca92e8": {
    "id": "autoscout24:f4070318-0058-4613-8c02-f4f541ca92e8",
@@ -2322,8 +2310,7 @@
    "date_1re_immat": "2023-10",
    "plaque_empreinte": "73b9f7c6cd6d4c0f",
    "premiere_vue": "2026-08-27T08:57:01",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T13:45:57"
+   "derniere_vue": "2026-08-27"
   },
   "autoscout24:faf058cd-e01e-47eb-9100-d9294a51e393": {
    "id": "autoscout24:faf058cd-e01e-47eb-9100-d9294a51e393",
@@ -2466,7 +2453,8 @@
    "date_1re_immat": "2023-05-16",
    "plaque_empreinte": "b2bc21d20b44a405",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000005_VO184358": {
    "id": "renew:VEH_00000005_VO184358",
@@ -2482,7 +2470,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "cf2742316932d614",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000005_VO184367": {
    "id": "renew:VEH_00000005_VO184367",
@@ -2546,7 +2535,8 @@
    "date_1re_immat": "2023-05-25",
    "plaque_empreinte": "df56e01ddfcc87ee",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000009_VO009015": {
    "id": "renew:VEH_00000009_VO009015",
@@ -2562,7 +2552,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "414f22fc70b57c4c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000020_VO223038": {
    "id": "renew:VEH_00000020_VO223038",
@@ -2578,7 +2569,8 @@
    "date_1re_immat": "2023-04-21",
    "plaque_empreinte": "d9e095403b6352b5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000020_VO223091": {
    "id": "renew:VEH_00000020_VO223091",
@@ -2610,7 +2602,8 @@
    "date_1re_immat": "2023-04-21",
    "plaque_empreinte": "ffe4b1bd460c665d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000020_VO223517": {
    "id": "renew:VEH_00000020_VO223517",
@@ -2658,7 +2651,8 @@
    "date_1re_immat": "2023-07-26",
    "plaque_empreinte": "4245445ed2c56422",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000021_237979": {
    "id": "renew:VEH_00000021_237979",
@@ -2706,7 +2700,8 @@
    "date_1re_immat": "2023-10-04",
    "plaque_empreinte": "9269612e1b082e63",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000021_240807": {
    "id": "renew:VEH_00000021_240807",
@@ -2770,7 +2765,8 @@
    "date_1re_immat": "2023-07-25",
    "plaque_empreinte": "8413ab9c43d288ba",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000023_342035": {
    "id": "renew:VEH_00000023_342035",
@@ -2786,7 +2782,8 @@
    "date_1re_immat": "2023-05-16",
    "plaque_empreinte": "e1f319a7de021954",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000023_342175": {
    "id": "renew:VEH_00000023_342175",
@@ -2834,7 +2831,8 @@
    "date_1re_immat": "2023-10-26",
    "plaque_empreinte": "08fc3e045322872b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000025_36340": {
    "id": "renew:VEH_00000025_36340",
@@ -2866,7 +2864,8 @@
    "date_1re_immat": "2023-04-17",
    "plaque_empreinte": "1137ec2cea7f0f74",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000025_36651": {
    "id": "renew:VEH_00000025_36651",
@@ -2882,7 +2881,8 @@
    "date_1re_immat": "2023-06-02",
    "plaque_empreinte": "f7f73f9fe55d65f5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000026_448680": {
    "id": "renew:VEH_00000026_448680",
@@ -2914,7 +2914,8 @@
    "date_1re_immat": "2025-03-20",
    "plaque_empreinte": "84a90ec94fafb758",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000026_465910": {
    "id": "renew:VEH_00000026_465910",
@@ -2930,7 +2931,8 @@
    "date_1re_immat": "2025-04-02",
    "plaque_empreinte": "aaab3126577efd85",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000026_471352": {
    "id": "renew:VEH_00000026_471352",
@@ -2962,7 +2964,8 @@
    "date_1re_immat": "2025-11-03",
    "plaque_empreinte": "bdeeb03d00d05ebd",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000026_472495": {
    "id": "renew:VEH_00000026_472495",
@@ -3057,7 +3060,8 @@
    "date_1re_immat": "2023-06-27",
    "plaque_empreinte": "0c3244f4b833f5a3",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000032_VO882333": {
    "id": "renew:VEH_00000032_VO882333",
@@ -3073,7 +3077,8 @@
    "date_1re_immat": "2023-05-23",
    "plaque_empreinte": "1a4ca245af96469a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000032_VO882447": {
    "id": "renew:VEH_00000032_VO882447",
@@ -3105,7 +3110,8 @@
    "date_1re_immat": "2023-06-22",
    "plaque_empreinte": "c75a39f7ab786d37",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO605044": {
    "id": "renew:VEH_00000036_VO605044",
@@ -3121,7 +3127,8 @@
    "date_1re_immat": "2023-02-27",
    "plaque_empreinte": "7c8e4b28a50f9f39",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO606024": {
    "id": "renew:VEH_00000036_VO606024",
@@ -3185,7 +3192,8 @@
    "date_1re_immat": "2024-02-29",
    "plaque_empreinte": "2e8dc7c430cbbafe",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO607040": {
    "id": "renew:VEH_00000036_VO607040",
@@ -3201,7 +3209,8 @@
    "date_1re_immat": "2023-06-21",
    "plaque_empreinte": "b873602950951368",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO607049": {
    "id": "renew:VEH_00000036_VO607049",
@@ -3217,7 +3226,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "e6f8c6d69782e788",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO607056": {
    "id": "renew:VEH_00000036_VO607056",
@@ -3233,7 +3243,8 @@
    "date_1re_immat": "2023-06-21",
    "plaque_empreinte": "b3c997c99b5444db",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO607068": {
    "id": "renew:VEH_00000036_VO607068",
@@ -3249,7 +3260,8 @@
    "date_1re_immat": "2023-06-26",
    "plaque_empreinte": "1ada586f7b145284",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO607069": {
    "id": "renew:VEH_00000036_VO607069",
@@ -3265,7 +3277,8 @@
    "date_1re_immat": "2023-06-28",
    "plaque_empreinte": "c2acc7883b3c7840",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO607074": {
    "id": "renew:VEH_00000036_VO607074",
@@ -3297,7 +3310,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "aa6cf04861afc3b5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO607097": {
    "id": "renew:VEH_00000036_VO607097",
@@ -3329,7 +3343,8 @@
    "date_1re_immat": "2023-06-22",
    "plaque_empreinte": "923a01e34033279f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000036_VO607111": {
    "id": "renew:VEH_00000036_VO607111",
@@ -3377,7 +3392,8 @@
    "date_1re_immat": "2023-04-25",
    "plaque_empreinte": "4fb206c26944f94d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000041_VO607051": {
    "id": "renew:VEH_00000041_VO607051",
@@ -3409,7 +3425,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "53fffb7597094dc4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000041_VO607081": {
    "id": "renew:VEH_00000041_VO607081",
@@ -3425,7 +3442,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "785df082d5fd88e3",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000041_VO607089": {
    "id": "renew:VEH_00000041_VO607089",
@@ -3473,7 +3491,8 @@
    "date_1re_immat": "2023-03-24",
    "plaque_empreinte": "4570ac51bcef1231",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000041_VO608040": {
    "id": "renew:VEH_00000041_VO608040",
@@ -3521,7 +3540,8 @@
    "date_1re_immat": "2023-03-29",
    "plaque_empreinte": "aee72c9d1653728b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000043_VO606049": {
    "id": "renew:VEH_00000043_VO606049",
@@ -3537,7 +3557,8 @@
    "date_1re_immat": "2023-05-15",
    "plaque_empreinte": "d92847cb78813723",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000043_VO607025": {
    "id": "renew:VEH_00000043_VO607025",
@@ -3553,7 +3574,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "a20019e01fb12c7c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000043_VO607033": {
    "id": "renew:VEH_00000043_VO607033",
@@ -3585,7 +3607,8 @@
    "date_1re_immat": "2023-03-27",
    "plaque_empreinte": "f89fcbec2ad57836",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000043_VO607067": {
    "id": "renew:VEH_00000043_VO607067",
@@ -3601,7 +3624,8 @@
    "date_1re_immat": "2023-09-29",
    "plaque_empreinte": "e976b8ec8df37fd6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000044_VO805174": {
    "id": "renew:VEH_00000044_VO805174",
@@ -3617,7 +3641,8 @@
    "date_1re_immat": "2024-02-12",
    "plaque_empreinte": "a4e74f0605ad1775",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000044_VO805192": {
    "id": "renew:VEH_00000044_VO805192",
@@ -3633,7 +3658,8 @@
    "date_1re_immat": "2023-06-12",
    "plaque_empreinte": "f8ea90af16187ec5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000044_VO805237": {
    "id": "renew:VEH_00000044_VO805237",
@@ -3649,7 +3675,8 @@
    "date_1re_immat": "2023-04-28",
    "plaque_empreinte": "8f8caf74a769f921",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000046_12337": {
    "id": "renew:VEH_00000046_12337",
@@ -3728,7 +3755,8 @@
    "date_1re_immat": "2023-01-16",
    "plaque_empreinte": "77fca07ab3753f7b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000047_VO608689": {
    "id": "renew:VEH_00000047_VO608689",
@@ -3744,7 +3772,8 @@
    "date_1re_immat": "2023-10-12",
    "plaque_empreinte": "3144d3109a380070",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000049_VO604044": {
    "id": "renew:VEH_00000049_VO604044",
@@ -3760,7 +3789,8 @@
    "date_1re_immat": "2023-03-21",
    "plaque_empreinte": "d48f5690ac12ec08",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000049_VO606066": {
    "id": "renew:VEH_00000049_VO606066",
@@ -3776,7 +3806,8 @@
    "date_1re_immat": "2023-06-12",
    "plaque_empreinte": "1a75004204906eb4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000049_VO607038": {
    "id": "renew:VEH_00000049_VO607038",
@@ -3792,7 +3823,8 @@
    "date_1re_immat": "2023-06-06",
    "plaque_empreinte": "75bf267534b605e6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000049_VO607050": {
    "id": "renew:VEH_00000049_VO607050",
@@ -3808,7 +3840,8 @@
    "date_1re_immat": "2023-11-29",
    "plaque_empreinte": "f13729cb78edfd7c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000049_VO607056": {
    "id": "renew:VEH_00000049_VO607056",
@@ -3824,7 +3857,8 @@
    "date_1re_immat": "2023-06-13",
    "plaque_empreinte": "e0fe1413b3eff242",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000054_VO024257": {
    "id": "renew:VEH_00000054_VO024257",
@@ -3840,7 +3874,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "ededd3fae60cbcd6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000056_VO030954": {
    "id": "renew:VEH_00000056_VO030954",
@@ -3856,7 +3891,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "9f19f2bb2e28a2fd",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000056_VO030966": {
    "id": "renew:VEH_00000056_VO030966",
@@ -3872,7 +3908,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "562677abef32999b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000058_VO606003": {
    "id": "renew:VEH_00000058_VO606003",
@@ -3888,7 +3925,8 @@
    "date_1re_immat": "2023-12-11",
    "plaque_empreinte": "339a89b10483662f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000058_VO607012": {
    "id": "renew:VEH_00000058_VO607012",
@@ -3936,7 +3974,8 @@
    "date_1re_immat": "2023-04-27",
    "plaque_empreinte": "ef48e8c54eac1d85",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000059_44384": {
    "id": "renew:VEH_00000059_44384",
@@ -3952,7 +3991,8 @@
    "date_1re_immat": "2023-04-17",
    "plaque_empreinte": "12f7548568e1fc59",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000059_44420": {
    "id": "renew:VEH_00000059_44420",
@@ -3968,7 +4008,8 @@
    "date_1re_immat": "2023-04-19",
    "plaque_empreinte": "7c601a7a47a454af",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000059_45210": {
    "id": "renew:VEH_00000059_45210",
@@ -4000,7 +4041,8 @@
    "date_1re_immat": "2023-04-27",
    "plaque_empreinte": "d8df3bc882b09927",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000059_45530": {
    "id": "renew:VEH_00000059_45530",
@@ -4016,7 +4058,8 @@
    "date_1re_immat": "2023-04-27",
    "plaque_empreinte": "996baddcdc0c6a3e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000059_45696": {
    "id": "renew:VEH_00000059_45696",
@@ -4032,7 +4075,8 @@
    "date_1re_immat": "2024-07-26",
    "plaque_empreinte": "a5756f052c841077",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000059_45963": {
    "id": "renew:VEH_00000059_45963",
@@ -4048,7 +4092,8 @@
    "date_1re_immat": "2023-03-30",
    "plaque_empreinte": "12788e47e20d7591",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000059_46145": {
    "id": "renew:VEH_00000059_46145",
@@ -4064,7 +4109,8 @@
    "date_1re_immat": "2023-07-11",
    "plaque_empreinte": "850cfe63aa7698be",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000060_VO067142": {
    "id": "renew:VEH_00000060_VO067142",
@@ -4080,7 +4126,8 @@
    "date_1re_immat": "2023-01-04",
    "plaque_empreinte": "2828840421dc42b4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000060_VO067782": {
    "id": "renew:VEH_00000060_VO067782",
@@ -4144,7 +4191,8 @@
    "date_1re_immat": "2023-08-22",
    "plaque_empreinte": "710c7fa717c3fed4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000062_VO606180": {
    "id": "renew:VEH_00000062_VO606180",
@@ -4160,7 +4208,8 @@
    "date_1re_immat": "2023-11-14",
    "plaque_empreinte": "e83b1c44cac73601",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000062_VO606218": {
    "id": "renew:VEH_00000062_VO606218",
@@ -4208,7 +4257,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "69a0510fedee8a26",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000062_VO607221": {
    "id": "renew:VEH_00000062_VO607221",
@@ -4240,7 +4290,8 @@
    "date_1re_immat": "2024-03-15",
    "plaque_empreinte": "4b5b9c87eb9de53c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000062_VO608140": {
    "id": "renew:VEH_00000062_VO608140",
@@ -4256,7 +4307,8 @@
    "date_1re_immat": "2023-06-27",
    "plaque_empreinte": "f254e0837bcd59dd",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000063_VO015623": {
    "id": "renew:VEH_00000063_VO015623",
@@ -4288,7 +4340,8 @@
    "date_1re_immat": "2023-04-27",
    "plaque_empreinte": "c8cf5a4b9e6b577d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000063_VO015915": {
    "id": "renew:VEH_00000063_VO015915",
@@ -4400,7 +4453,8 @@
    "date_1re_immat": "2023-10-11",
    "plaque_empreinte": "ebdce1e2086e1439",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000064_VO606053": {
    "id": "renew:VEH_00000064_VO606053",
@@ -4464,7 +4518,8 @@
    "date_1re_immat": "2023-06-16",
    "plaque_empreinte": "2b47ae7fd652e0f7",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000064_VO607097": {
    "id": "renew:VEH_00000064_VO607097",
@@ -4480,7 +4535,8 @@
    "date_1re_immat": "2023-07-12",
    "plaque_empreinte": "5874b3684022c713",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000064_VO608005": {
    "id": "renew:VEH_00000064_VO608005",
@@ -4496,7 +4552,8 @@
    "date_1re_immat": "2023-01-25",
    "plaque_empreinte": "4f152b5ed89442ea",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000066_VO605015": {
    "id": "renew:VEH_00000066_VO605015",
@@ -4560,7 +4617,8 @@
    "date_1re_immat": "2023-06-09",
    "plaque_empreinte": "97bd74ff284e2669",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000066_VO607012": {
    "id": "renew:VEH_00000066_VO607012",
@@ -4576,7 +4634,8 @@
    "date_1re_immat": "2023-06-01",
    "plaque_empreinte": "a01656409e0fcc14",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000066_VO607035": {
    "id": "renew:VEH_00000066_VO607035",
@@ -4608,7 +4667,8 @@
    "date_1re_immat": "2023-04-24",
    "plaque_empreinte": "5ad474774caba9f5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000066_VO607072": {
    "id": "renew:VEH_00000066_VO607072",
@@ -4624,7 +4684,8 @@
    "date_1re_immat": "2023-05-26",
    "plaque_empreinte": "bb158eb40af7891d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000066_VO607074": {
    "id": "renew:VEH_00000066_VO607074",
@@ -4640,7 +4701,8 @@
    "date_1re_immat": "2023-06-09",
    "plaque_empreinte": "ff93052d8d52bb78",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000066_VO607083": {
    "id": "renew:VEH_00000066_VO607083",
@@ -4672,7 +4734,8 @@
    "date_1re_immat": "2023-06-26",
    "plaque_empreinte": "32454140d5883a8c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000066_VO608007": {
    "id": "renew:VEH_00000066_VO608007",
@@ -4688,7 +4751,8 @@
    "date_1re_immat": "2023-07-21",
    "plaque_empreinte": "a5d21b2d708a2908",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000067_VO606052": {
    "id": "renew:VEH_00000067_VO606052",
@@ -4704,7 +4768,8 @@
    "date_1re_immat": "2023-03-17",
    "plaque_empreinte": "98bf6d1a0765abdf",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000067_VO606085": {
    "id": "renew:VEH_00000067_VO606085",
@@ -4720,7 +4785,8 @@
    "date_1re_immat": "2023-06-15",
    "plaque_empreinte": "130c5e8ba03a1a40",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000067_VO607053": {
    "id": "renew:VEH_00000067_VO607053",
@@ -4736,7 +4802,8 @@
    "date_1re_immat": "2023-06-13",
    "plaque_empreinte": "55ffa8b211ced6d9",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000067_VO607066": {
    "id": "renew:VEH_00000067_VO607066",
@@ -4768,7 +4835,8 @@
    "date_1re_immat": "2023-05-11",
    "plaque_empreinte": "6f6a01f075535b48",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000067_VO608014": {
    "id": "renew:VEH_00000067_VO608014",
@@ -4784,7 +4852,8 @@
    "date_1re_immat": "2023-06-22",
    "plaque_empreinte": "0bbcf965b4f834cf",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000067_VO608022": {
    "id": "renew:VEH_00000067_VO608022",
@@ -4800,7 +4869,8 @@
    "date_1re_immat": "2023-06-19",
    "plaque_empreinte": "33d1faa7a2cda0ae",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000067_VO608028": {
    "id": "renew:VEH_00000067_VO608028",
@@ -4832,7 +4902,8 @@
    "date_1re_immat": "2023-06-21",
    "plaque_empreinte": "64167d6efac41447",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000067_VO608040": {
    "id": "renew:VEH_00000067_VO608040",
@@ -4864,7 +4935,8 @@
    "date_1re_immat": "2025-04-02",
    "plaque_empreinte": "eac3345720be4f5d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000149_293281": {
    "id": "renew:VEH_00000149_293281",
@@ -4880,7 +4952,8 @@
    "date_1re_immat": "2023-03-16",
    "plaque_empreinte": "d35dd3300e1abcf3",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000149_294069": {
    "id": "renew:VEH_00000149_294069",
@@ -4912,7 +4985,8 @@
    "date_1re_immat": "2025-11-03",
    "plaque_empreinte": "438909c7fa977a4f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000149_295494": {
    "id": "renew:VEH_00000149_295494",
@@ -4928,7 +5002,8 @@
    "date_1re_immat": "2025-09-04",
    "plaque_empreinte": "ab25773175fcd458",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000149_295621": {
    "id": "renew:VEH_00000149_295621",
@@ -4944,7 +5019,8 @@
    "date_1re_immat": "2023-10-20",
    "plaque_empreinte": "46617311e7e995f4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000150_205898": {
    "id": "renew:VEH_00000150_205898",
@@ -4960,7 +5036,8 @@
    "date_1re_immat": "2023-03-14",
    "plaque_empreinte": "e9afc0377ebd429a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000150_207454": {
    "id": "renew:VEH_00000150_207454",
@@ -4976,7 +5053,8 @@
    "date_1re_immat": "2023-05-26",
    "plaque_empreinte": "e02a8bfe2c2427b0",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000150_207463": {
    "id": "renew:VEH_00000150_207463",
@@ -5024,7 +5102,8 @@
    "date_1re_immat": "2023-06-22",
    "plaque_empreinte": "3b3d38980e3ac131",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000150_207778": {
    "id": "renew:VEH_00000150_207778",
@@ -5088,7 +5167,8 @@
    "date_1re_immat": "2023-04-24",
    "plaque_empreinte": "abd800ff061d7668",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000153_VO139715": {
    "id": "renew:VEH_00000153_VO139715",
@@ -5104,7 +5184,8 @@
    "date_1re_immat": "2023-03-28",
    "plaque_empreinte": "334bf2b4ab434581",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000154_171242": {
    "id": "renew:VEH_00000154_171242",
@@ -5136,7 +5217,8 @@
    "date_1re_immat": "2023-01-23",
    "plaque_empreinte": "77c3ecde9b4d8107",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000154_171801": {
    "id": "renew:VEH_00000154_171801",
@@ -5184,7 +5266,8 @@
    "date_1re_immat": "2025-04-02",
    "plaque_empreinte": "46cf3e00e7bba254",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000155_VO221270": {
    "id": "renew:VEH_00000155_VO221270",
@@ -5200,7 +5283,8 @@
    "date_1re_immat": "2023-12-12",
    "plaque_empreinte": "8ab96708c4cbb733",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000155_VO221271": {
    "id": "renew:VEH_00000155_VO221271",
@@ -5216,7 +5300,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "3d7cd350e323c655",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000155_VO221308": {
    "id": "renew:VEH_00000155_VO221308",
@@ -5248,7 +5333,8 @@
    "date_1re_immat": "2023-06-19",
    "plaque_empreinte": "41cb2f4c99757371",
    "premiere_vue": "2026-08-27T12:46:15",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000156_VO081617": {
    "id": "renew:VEH_00000156_VO081617",
@@ -5280,7 +5366,8 @@
    "date_1re_immat": "2023-03-23",
    "plaque_empreinte": "3418608b9c60d955",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000158_VO045856": {
    "id": "renew:VEH_00000158_VO045856",
@@ -5296,7 +5383,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "96c6104b6aab55b6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000159_VO005191": {
    "id": "renew:VEH_00000159_VO005191",
@@ -5360,7 +5448,8 @@
    "date_1re_immat": "2023-03-30",
    "plaque_empreinte": "2840e51cb9dd9525",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000164_VO062662": {
    "id": "renew:VEH_00000164_VO062662",
@@ -5376,7 +5465,8 @@
    "date_1re_immat": "2023-05-16",
    "plaque_empreinte": "74f2a000b46d834b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000164_VO072613": {
    "id": "renew:VEH_00000164_VO072613",
@@ -5424,7 +5514,8 @@
    "date_1re_immat": "2023-06-19",
    "plaque_empreinte": "6d19a59facef6334",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000164_VO082617": {
    "id": "renew:VEH_00000164_VO082617",
@@ -5504,7 +5595,8 @@
    "date_1re_immat": "2025-04-02",
    "plaque_empreinte": "78441e32ad87dd9f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000167_VO260416": {
    "id": "renew:VEH_00000167_VO260416",
@@ -5535,7 +5627,8 @@
    "date_1re_immat": "2023-03-30",
    "plaque_empreinte": "39822d125a0abb5c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000167_VO260587": {
    "id": "renew:VEH_00000167_VO260587",
@@ -5551,7 +5644,8 @@
    "date_1re_immat": "2023-03-28",
    "plaque_empreinte": "3340611ce2d9c42c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000167_VO260646": {
    "id": "renew:VEH_00000167_VO260646",
@@ -5583,7 +5677,8 @@
    "date_1re_immat": "2023-12-14",
    "plaque_empreinte": "41989ae21e9455fe",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000168_VO260432": {
    "id": "renew:VEH_00000168_VO260432",
@@ -5599,7 +5694,8 @@
    "date_1re_immat": "2023-11-21",
    "plaque_empreinte": "7716a4dff1a9087a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000171_VO011663": {
    "id": "renew:VEH_00000171_VO011663",
@@ -5647,7 +5743,8 @@
    "date_1re_immat": "2023-11-30",
    "plaque_empreinte": "b711b503c8224615",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000172_VO033215": {
    "id": "renew:VEH_00000172_VO033215",
@@ -5663,7 +5760,8 @@
    "date_1re_immat": "2023-03-17",
    "plaque_empreinte": "96db5aff662a66b8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000172_VO033256": {
    "id": "renew:VEH_00000172_VO033256",
@@ -5711,7 +5809,8 @@
    "date_1re_immat": "2023-08-11",
    "plaque_empreinte": "d462dc225293c204",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000174_VO607290": {
    "id": "renew:VEH_00000174_VO607290",
@@ -5791,7 +5890,8 @@
    "date_1re_immat": "2023-04-24",
    "plaque_empreinte": "59b54bff68ba8dc9",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000175_VO050151": {
    "id": "renew:VEH_00000175_VO050151",
@@ -5839,7 +5939,8 @@
    "date_1re_immat": "2023-04-28",
    "plaque_empreinte": "536163b6ccd9f22c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000175_VO050194": {
    "id": "renew:VEH_00000175_VO050194",
@@ -5903,7 +6004,8 @@
    "date_1re_immat": "2024-02-21",
    "plaque_empreinte": "8cbc974ac28c8083",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000176_VO023043": {
    "id": "renew:VEH_00000176_VO023043",
@@ -5919,7 +6021,8 @@
    "date_1re_immat": "2024-04-11",
    "plaque_empreinte": "adfd532da191ab19",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000176_VO023056": {
    "id": "renew:VEH_00000176_VO023056",
@@ -5935,7 +6038,8 @@
    "date_1re_immat": "2023-03-20",
    "plaque_empreinte": "ba71b81eac9c6d56",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000177_VO606222": {
    "id": "renew:VEH_00000177_VO606222",
@@ -5998,7 +6102,8 @@
    "date_1re_immat": "2023-07-26",
    "plaque_empreinte": "5c253c1a5d599cc1",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000178_VO414181": {
    "id": "renew:VEH_00000178_VO414181",
@@ -6094,7 +6199,8 @@
    "date_1re_immat": "2024-04-11",
    "plaque_empreinte": "8ab1a0dc4135cba1",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000180_VO130216": {
    "id": "renew:VEH_00000180_VO130216",
@@ -6110,7 +6216,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "5ccbcac8ffe1ae56",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000252_VO018371": {
    "id": "renew:VEH_00000252_VO018371",
@@ -6126,7 +6233,8 @@
    "date_1re_immat": "2025-03-21",
    "plaque_empreinte": "bdf6df90c2d21d76",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000252_VO018423": {
    "id": "renew:VEH_00000252_VO018423",
@@ -6142,7 +6250,8 @@
    "date_1re_immat": "2023-05-12",
    "plaque_empreinte": "90083e1895d054a9",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000252_VO018484": {
    "id": "renew:VEH_00000252_VO018484",
@@ -6158,7 +6267,8 @@
    "date_1re_immat": "2023-04-26",
    "plaque_empreinte": "fcb8a94d9f4069f7",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000252_VO018679": {
    "id": "renew:VEH_00000252_VO018679",
@@ -6174,7 +6284,8 @@
    "date_1re_immat": "2023-05-19",
    "plaque_empreinte": "67134f15c56e4738",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000256_VO012662": {
    "id": "renew:VEH_00000256_VO012662",
@@ -6190,7 +6301,8 @@
    "date_1re_immat": "2023-01-31",
    "plaque_empreinte": "30e76d71663a4cba",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000256_VO013598": {
    "id": "renew:VEH_00000256_VO013598",
@@ -6206,7 +6318,8 @@
    "date_1re_immat": "2023-02-22",
    "plaque_empreinte": "c8a6ad15d84691c8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000257_VO226384": {
    "id": "renew:VEH_00000257_VO226384",
@@ -6222,7 +6335,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "3aff91e727b80fbb",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000258_VO260424": {
    "id": "renew:VEH_00000258_VO260424",
@@ -6238,7 +6352,8 @@
    "date_1re_immat": "2023-10-30",
    "plaque_empreinte": "f9e089eb1a81b657",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000258_VO260531": {
    "id": "renew:VEH_00000258_VO260531",
@@ -6254,7 +6369,8 @@
    "date_1re_immat": "2023-05-16",
    "plaque_empreinte": "a28eabd3880db4c7",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000264_VO223924": {
    "id": "renew:VEH_00000264_VO223924",
@@ -6270,7 +6386,8 @@
    "date_1re_immat": "2024-02-23",
    "plaque_empreinte": "31aa754d243c3173",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000264_VO223958": {
    "id": "renew:VEH_00000264_VO223958",
@@ -6317,7 +6434,8 @@
    "date_1re_immat": "2023-07-26",
    "plaque_empreinte": "07c5648bb82afb0e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000268_VO029342": {
    "id": "renew:VEH_00000268_VO029342",
@@ -6333,7 +6451,8 @@
    "date_1re_immat": "2023-10-27",
    "plaque_empreinte": "63105bf4b75febae",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000268_VO029460": {
    "id": "renew:VEH_00000268_VO029460",
@@ -6397,7 +6516,8 @@
    "date_1re_immat": "2023-05-17",
    "plaque_empreinte": "1333072db425bbf4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000269_VO048980": {
    "id": "renew:VEH_00000269_VO048980",
@@ -6413,7 +6533,8 @@
    "date_1re_immat": "2023-07-31",
    "plaque_empreinte": "ea7f13562e40be20",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000269_VO048981": {
    "id": "renew:VEH_00000269_VO048981",
@@ -6429,7 +6550,8 @@
    "date_1re_immat": "2023-12-13",
    "plaque_empreinte": "a1bf61a77ae5616d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000269_VO049002": {
    "id": "renew:VEH_00000269_VO049002",
@@ -6445,7 +6567,8 @@
    "date_1re_immat": "2023-06-14",
    "plaque_empreinte": "3897f64598280b25",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000270_VO260754": {
    "id": "renew:VEH_00000270_VO260754",
@@ -6461,7 +6584,8 @@
    "date_1re_immat": "2023-06-12",
    "plaque_empreinte": "fd5175eafbab8c8b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000271_VO251211": {
    "id": "renew:VEH_00000271_VO251211",
@@ -6477,7 +6601,8 @@
    "date_1re_immat": "2025-03-20",
    "plaque_empreinte": "c5c56b565a05072e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000274_VO251327": {
    "id": "renew:VEH_00000274_VO251327",
@@ -6572,7 +6697,8 @@
    "date_1re_immat": "2023-04-07",
    "plaque_empreinte": "10724586b2fc62a6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000281_VO009445": {
    "id": "renew:VEH_00000281_VO009445",
@@ -6588,7 +6714,8 @@
    "date_1re_immat": "2023-09-25",
    "plaque_empreinte": "c82d0cca16ed5ef0",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000283_VO260388": {
    "id": "renew:VEH_00000283_VO260388",
@@ -6604,7 +6731,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "5809c254a3140f2d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000288_VO234537": {
    "id": "renew:VEH_00000288_VO234537",
@@ -6620,7 +6748,8 @@
    "date_1re_immat": "2023-06-13",
    "plaque_empreinte": "9dc39da26313d8fa",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000291_VO260427": {
    "id": "renew:VEH_00000291_VO260427",
@@ -6636,7 +6765,8 @@
    "date_1re_immat": "2023-10-19",
    "plaque_empreinte": "73b9f7c6cd6d4c0f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000292_VO460480": {
    "id": "renew:VEH_00000292_VO460480",
@@ -6652,7 +6782,8 @@
    "date_1re_immat": "2025-09-26",
    "plaque_empreinte": "5391f621dac985a2",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000292_VO460600": {
    "id": "renew:VEH_00000292_VO460600",
@@ -6716,7 +6847,8 @@
    "date_1re_immat": "2023-06-22",
    "plaque_empreinte": "2ac29348ddc535e1",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000293_VO260410": {
    "id": "renew:VEH_00000293_VO260410",
@@ -6828,7 +6960,8 @@
    "date_1re_immat": "2023-06-14",
    "plaque_empreinte": "bb09cc96af8ccb4b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000295_VO260531": {
    "id": "renew:VEH_00000295_VO260531",
@@ -6844,7 +6977,8 @@
    "date_1re_immat": "2023-06-13",
    "plaque_empreinte": "49c217682b9bd32e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000401_VO519715": {
    "id": "renew:VEH_00000401_VO519715",
@@ -6876,7 +7010,8 @@
    "date_1re_immat": "2023-06-23",
    "plaque_empreinte": "90d31c4fb120e5c2",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000401_VO519766": {
    "id": "renew:VEH_00000401_VO519766",
@@ -6908,7 +7043,8 @@
    "date_1re_immat": "2024-02-21",
    "plaque_empreinte": "5eab95b4128e6eaa",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000401_VO519788": {
    "id": "renew:VEH_00000401_VO519788",
@@ -6988,7 +7124,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "0a73517c538e46db",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000403_VO606610": {
    "id": "renew:VEH_00000403_VO606610",
@@ -7004,7 +7141,8 @@
    "date_1re_immat": "2024-04-11",
    "plaque_empreinte": "94ec7bd042204e5f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000403_VO606629": {
    "id": "renew:VEH_00000403_VO606629",
@@ -7036,7 +7174,8 @@
    "date_1re_immat": "2024-04-11",
    "plaque_empreinte": "9c183594d1ad15ee",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000403_VO607797": {
    "id": "renew:VEH_00000403_VO607797",
@@ -7084,7 +7223,8 @@
    "date_1re_immat": "2023-08-24",
    "plaque_empreinte": "84be775585b51621",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000404_VO103915": {
    "id": "renew:VEH_00000404_VO103915",
@@ -7100,7 +7240,8 @@
    "date_1re_immat": "2023-09-26",
    "plaque_empreinte": "f0e7255d09ce7e7e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000404_VO104161": {
    "id": "renew:VEH_00000404_VO104161",
@@ -7195,7 +7336,8 @@
    "date_1re_immat": "2023-09-28",
    "plaque_empreinte": "18ad7e9968296339",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000422_VO426553": {
    "id": "renew:VEH_00000422_VO426553",
@@ -7211,7 +7353,8 @@
    "date_1re_immat": "2025-09-04",
    "plaque_empreinte": "af362a18b864dcf5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000422_VO426568": {
    "id": "renew:VEH_00000422_VO426568",
@@ -7227,7 +7370,8 @@
    "date_1re_immat": "2024-02-21",
    "plaque_empreinte": "cc5751938585c7c1",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000425_VO226146": {
    "id": "renew:VEH_00000425_VO226146",
@@ -7243,7 +7387,8 @@
    "date_1re_immat": "2024-03-25",
    "plaque_empreinte": "33bc14801ce188ad",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000427_VO094733": {
    "id": "renew:VEH_00000427_VO094733",
@@ -7259,8 +7404,7 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "87eec2836fa8949f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000430_VO026301": {
    "id": "renew:VEH_00000430_VO026301",
@@ -7292,8 +7436,7 @@
    "date_1re_immat": "2023-06-12",
    "plaque_empreinte": "0904871e780aad65",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000432_VO103419": {
    "id": "renew:VEH_00000432_VO103419",
@@ -7341,8 +7484,7 @@
    "date_1re_immat": "2023-06-05",
    "plaque_empreinte": "5af2887ff80b292d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000433_VO101775": {
    "id": "renew:VEH_00000433_VO101775",
@@ -7358,8 +7500,7 @@
    "date_1re_immat": "2023-03-22",
    "plaque_empreinte": "6080672c0909f7e5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000441_VO022294": {
    "id": "renew:VEH_00000441_VO022294",
@@ -7391,8 +7532,7 @@
    "date_1re_immat": "2023-05-10",
    "plaque_empreinte": "8f0e9165f7053072",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000441_VO022572": {
    "id": "renew:VEH_00000441_VO022572",
@@ -7408,8 +7548,7 @@
    "date_1re_immat": "2023-07-17",
    "plaque_empreinte": "16045c8fc02ba5ce",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000442_VO004438": {
    "id": "renew:VEH_00000442_VO004438",
@@ -7425,8 +7564,7 @@
    "date_1re_immat": "2024-09-27",
    "plaque_empreinte": "94e7be166238d811",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000442_VO004499": {
    "id": "renew:VEH_00000442_VO004499",
@@ -7442,8 +7580,7 @@
    "date_1re_immat": "2023-03-30",
    "plaque_empreinte": "2be4e7f80482b7c8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000442_VO004567": {
    "id": "renew:VEH_00000442_VO004567",
@@ -7459,8 +7596,7 @@
    "date_1re_immat": "2023-04-26",
    "plaque_empreinte": "6917af63766e75db",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000443_VO426360": {
    "id": "renew:VEH_00000443_VO426360",
@@ -7492,7 +7628,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "aee32bec8c1f65df",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000444_VO159862": {
    "id": "renew:VEH_00000444_VO159862",
@@ -7508,7 +7645,8 @@
    "date_1re_immat": "2023-02-27",
    "plaque_empreinte": "510e962b8f1416ec",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000444_VO159931": {
    "id": "renew:VEH_00000444_VO159931",
@@ -7572,8 +7710,7 @@
    "date_1re_immat": "2023-06-28",
    "plaque_empreinte": "260675b92fc547b8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000452_VO326489": {
    "id": "renew:VEH_00000452_VO326489",
@@ -7589,8 +7726,7 @@
    "date_1re_immat": "2023-03-02",
    "plaque_empreinte": "b767ffad6fa3d443",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27",
-   "absente_depuis": "2026-08-27T16:30:58"
+   "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00000456_VO050545": {
    "id": "renew:VEH_00000456_VO050545",
@@ -7718,7 +7854,8 @@
    "date_1re_immat": "2023-04-27",
    "plaque_empreinte": "e3fb9095553116f4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000460_VO008809": {
    "id": "renew:VEH_00000460_VO008809",
@@ -7734,7 +7871,8 @@
    "date_1re_immat": "2023-03-15",
    "plaque_empreinte": "f320a4d82288fb84",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000460_VO008864": {
    "id": "renew:VEH_00000460_VO008864",
@@ -7814,7 +7952,8 @@
    "date_1re_immat": "2023-04-21",
    "plaque_empreinte": "4aac279a98b85b7b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000555_386537": {
    "id": "renew:VEH_00000555_386537",
@@ -7830,7 +7969,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "1e34764f73047706",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000555_386542": {
    "id": "renew:VEH_00000555_386542",
@@ -7894,7 +8034,8 @@
    "date_1re_immat": "2023-05-04",
    "plaque_empreinte": "dc7bebfbadc24409",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000556_205542": {
    "id": "renew:VEH_00000556_205542",
@@ -7910,7 +8051,8 @@
    "date_1re_immat": "2025-09-04",
    "plaque_empreinte": "a362de9845b17b24",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000556_205987": {
    "id": "renew:VEH_00000556_205987",
@@ -7958,7 +8100,8 @@
    "date_1re_immat": "2023-06-06",
    "plaque_empreinte": "0eb5346a4b1ecf42",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000556_206863": {
    "id": "renew:VEH_00000556_206863",
@@ -7974,7 +8117,8 @@
    "date_1re_immat": "2023-06-13",
    "plaque_empreinte": "67e9e14418fa43eb",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000557_VO050817": {
    "id": "renew:VEH_00000557_VO050817",
@@ -7990,7 +8134,8 @@
    "date_1re_immat": "2025-06-04",
    "plaque_empreinte": "6ff177e8a1382b80",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000557_VO051036": {
    "id": "renew:VEH_00000557_VO051036",
@@ -8086,7 +8231,8 @@
    "date_1re_immat": "2023-04-25",
    "plaque_empreinte": "b502ef0c2b90c075",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000557_VO051391": {
    "id": "renew:VEH_00000557_VO051391",
@@ -8102,7 +8248,8 @@
    "date_1re_immat": "2023-06-15",
    "plaque_empreinte": "e18fc278e3eef998",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000558_VO021669": {
    "id": "renew:VEH_00000558_VO021669",
@@ -8118,7 +8265,8 @@
    "date_1re_immat": "2023-04-24",
    "plaque_empreinte": "7a3ef9561cc3628d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000558_VO021703": {
    "id": "renew:VEH_00000558_VO021703",
@@ -8134,7 +8282,8 @@
    "date_1re_immat": "2023-11-13",
    "plaque_empreinte": "8c555cf08a0dae5d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000558_VO021730": {
    "id": "renew:VEH_00000558_VO021730",
@@ -8150,7 +8299,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "2935c2c4cc5aa99a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000558_VO021742": {
    "id": "renew:VEH_00000558_VO021742",
@@ -8166,7 +8316,8 @@
    "date_1re_immat": "2023-06-29",
    "plaque_empreinte": "8c5efcfafa90d2c2",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000564_VO918469": {
    "id": "renew:VEH_00000564_VO918469",
@@ -8198,7 +8349,8 @@
    "date_1re_immat": "2023-11-29",
    "plaque_empreinte": "19fea7fa6fd660cf",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000564_VO918565": {
    "id": "renew:VEH_00000564_VO918565",
@@ -8230,7 +8382,8 @@
    "date_1re_immat": "2023-06-29",
    "plaque_empreinte": "0b3833f465c72987",
    "premiere_vue": "2026-08-27T12:46:15",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000568_VO013710": {
    "id": "renew:VEH_00000568_VO013710",
@@ -8294,7 +8447,8 @@
    "date_1re_immat": "2025-09-04",
    "plaque_empreinte": "87e2054f6ead8c7e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000570_VO607028": {
    "id": "renew:VEH_00000570_VO607028",
@@ -8326,7 +8480,8 @@
    "date_1re_immat": "2025-02-25",
    "plaque_empreinte": "7fa0d0e400db3d76",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000571_VO006091": {
    "id": "renew:VEH_00000571_VO006091",
@@ -8342,7 +8497,8 @@
    "date_1re_immat": "2023-03-21",
    "plaque_empreinte": "97aa6bc193405f0d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000572_101114": {
    "id": "renew:VEH_00000572_101114",
@@ -8390,7 +8546,8 @@
    "date_1re_immat": "2023-03-31",
    "plaque_empreinte": "12ceee5e0cc1863e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000572_101595": {
    "id": "renew:VEH_00000572_101595",
@@ -8406,7 +8563,8 @@
    "date_1re_immat": "2023-07-27",
    "plaque_empreinte": "f68c7afac3d1b398",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000572_101751": {
    "id": "renew:VEH_00000572_101751",
@@ -8422,7 +8580,8 @@
    "date_1re_immat": "2023-06-29",
    "plaque_empreinte": "14443b03a1341d0d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000572_99351": {
    "id": "renew:VEH_00000572_99351",
@@ -8470,7 +8629,8 @@
    "date_1re_immat": "2025-08-07",
    "plaque_empreinte": "8053ff6ba5f2430d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000573_VO760676": {
    "id": "renew:VEH_00000573_VO760676",
@@ -8502,7 +8662,8 @@
    "date_1re_immat": "2023-04-20",
    "plaque_empreinte": "af6fa48d5bed1484",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000573_VO760774": {
    "id": "renew:VEH_00000573_VO760774",
@@ -8646,7 +8807,8 @@
    "date_1re_immat": "2023-05-12",
    "plaque_empreinte": "54437ed7f687181c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000579_VO021239": {
    "id": "renew:VEH_00000579_VO021239",
@@ -8662,7 +8824,8 @@
    "date_1re_immat": "2023-06-13",
    "plaque_empreinte": "30179ffde842cce8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000581_VO015538": {
    "id": "renew:VEH_00000581_VO015538",
@@ -8710,7 +8873,8 @@
    "date_1re_immat": "2023-08-22",
    "plaque_empreinte": "f4f3b6705133e017",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000583_VO163715": {
    "id": "renew:VEH_00000583_VO163715",
@@ -8742,7 +8906,8 @@
    "date_1re_immat": "2025-08-07",
    "plaque_empreinte": "39bd51cceb7a732d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000583_VO163971": {
    "id": "renew:VEH_00000583_VO163971",
@@ -8822,7 +8987,8 @@
    "date_1re_immat": "2025-10-02",
    "plaque_empreinte": "93e63a7cf039c50f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000593_VO461865": {
    "id": "renew:VEH_00000593_VO461865",
@@ -8838,7 +9004,8 @@
    "date_1re_immat": "2023-11-15",
    "plaque_empreinte": "1b56ffda0a4c318c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000593_VO461878": {
    "id": "renew:VEH_00000593_VO461878",
@@ -8870,7 +9037,8 @@
    "date_1re_immat": "2025-09-04",
    "plaque_empreinte": "aaa8af6d4d10bf46",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000593_VO461907": {
    "id": "renew:VEH_00000593_VO461907",
@@ -8886,7 +9054,8 @@
    "date_1re_immat": "2025-09-04",
    "plaque_empreinte": "64a9e8fbc8bd06bd",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000593_VO461908": {
    "id": "renew:VEH_00000593_VO461908",
@@ -8918,7 +9087,8 @@
    "date_1re_immat": "2023-12-04",
    "plaque_empreinte": "7d2f68c3e646b61b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000593_VO461957": {
    "id": "renew:VEH_00000593_VO461957",
@@ -8934,7 +9104,8 @@
    "date_1re_immat": "2023-11-29",
    "plaque_empreinte": "d1246573c3afd2c8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000593_VO461967": {
    "id": "renew:VEH_00000593_VO461967",
@@ -8966,7 +9137,8 @@
    "date_1re_immat": "2024-02-21",
    "plaque_empreinte": "a1cc1247bd18c166",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000594_VO558344": {
    "id": "renew:VEH_00000594_VO558344",
@@ -8982,7 +9154,8 @@
    "date_1re_immat": "2024-02-21",
    "plaque_empreinte": "9baf17dc278f59f4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000594_VO558345": {
    "id": "renew:VEH_00000594_VO558345",
@@ -9094,7 +9267,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "3d2de0f35fb3c40f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000597_VO520461": {
    "id": "renew:VEH_00000597_VO520461",
@@ -9110,7 +9284,8 @@
    "date_1re_immat": "2025-10-17",
    "plaque_empreinte": "6525280c7543f6ff",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000598_VO161346": {
    "id": "renew:VEH_00000598_VO161346",
@@ -9158,7 +9333,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "3db3e9dd34f06d74",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000600_VO962886": {
    "id": "renew:VEH_00000600_VO962886",
@@ -9174,7 +9350,8 @@
    "date_1re_immat": "2023-06-23",
    "plaque_empreinte": "95a3db36c199a229",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000601_VO433944": {
    "id": "renew:VEH_00000601_VO433944",
@@ -9222,7 +9399,8 @@
    "date_1re_immat": "2023-06-22",
    "plaque_empreinte": "cb364f4cdad148c2",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000607_VO123078": {
    "id": "renew:VEH_00000607_VO123078",
@@ -9238,7 +9416,8 @@
    "date_1re_immat": "2023-06-27",
    "plaque_empreinte": "f2f2e1a959cd76a8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000608_VO014281": {
    "id": "renew:VEH_00000608_VO014281",
@@ -9286,7 +9465,8 @@
    "date_1re_immat": "2023-01-31",
    "plaque_empreinte": "bf8d5f1dbe0687eb",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000612_VO018478": {
    "id": "renew:VEH_00000612_VO018478",
@@ -9462,7 +9642,8 @@
    "date_1re_immat": "2023-02-07",
    "plaque_empreinte": "ad8c0429f8ee4b89",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000701_VO117848": {
    "id": "renew:VEH_00000701_VO117848",
@@ -9606,7 +9787,8 @@
    "date_1re_immat": "2023-06-30",
    "plaque_empreinte": "2a4ccb85123a1eb8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000704_VO129615": {
    "id": "renew:VEH_00000704_VO129615",
@@ -9846,7 +10028,8 @@
    "date_1re_immat": "2023-08-16",
    "plaque_empreinte": "ba415e0482156383",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000716_VO009109": {
    "id": "renew:VEH_00000716_VO009109",
@@ -10086,7 +10269,8 @@
    "date_1re_immat": "2025-10-17",
    "plaque_empreinte": "4a50edf085438447",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000730_VO011241": {
    "id": "renew:VEH_00000730_VO011241",
@@ -10166,7 +10350,8 @@
    "date_1re_immat": "2023-06-30",
    "plaque_empreinte": "ce31b7d007c649ca",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000732_VO014318": {
    "id": "renew:VEH_00000732_VO014318",
@@ -10182,7 +10367,8 @@
    "date_1re_immat": "2023-06-16",
    "plaque_empreinte": "d6633e97aebe4277",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000735_VO183427": {
    "id": "renew:VEH_00000735_VO183427",
@@ -12294,7 +12480,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "1173fcaa3c248c63",
    "premiere_vue": "2026-08-27T14:30:57",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000983_VO009194": {
    "id": "renew:VEH_00000983_VO009194",
@@ -12534,7 +12721,8 @@
    "date_1re_immat": "2023-06-27",
    "plaque_empreinte": "5a68fedfd9d11785",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000986_VO041953": {
    "id": "renew:VEH_00000986_VO041953",
@@ -12598,7 +12786,8 @@
    "date_1re_immat": "2023-05-16",
    "plaque_empreinte": "b217a74783ae3b94",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000992_VO005662": {
    "id": "renew:VEH_00000992_VO005662",
@@ -12614,7 +12803,8 @@
    "date_1re_immat": "2023-06-22",
    "plaque_empreinte": "589576d5186ef008",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000992_VO005665": {
    "id": "renew:VEH_00000992_VO005665",
@@ -12630,7 +12820,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "4d155c422dadc768",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000992_VO005673": {
    "id": "renew:VEH_00000992_VO005673",
@@ -12646,7 +12837,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "f2bbf26ef698e5b2",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000992_VO005721": {
    "id": "renew:VEH_00000992_VO005721",
@@ -12662,7 +12854,8 @@
    "date_1re_immat": "2023-06-22",
    "plaque_empreinte": "039138c0ad75f736",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000995_VO606281": {
    "id": "renew:VEH_00000995_VO606281",
@@ -12678,7 +12871,8 @@
    "date_1re_immat": "2023-06-19",
    "plaque_empreinte": "f555627feb2766c0",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000995_VO607286": {
    "id": "renew:VEH_00000995_VO607286",
@@ -12694,7 +12888,8 @@
    "date_1re_immat": "2024-03-21",
    "plaque_empreinte": "8e516b436aa99a2c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000997_VO605204": {
    "id": "renew:VEH_00000997_VO605204",
@@ -12710,7 +12905,8 @@
    "date_1re_immat": "2023-03-15",
    "plaque_empreinte": "11ad66630718cf93",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000997_VO607253": {
    "id": "renew:VEH_00000997_VO607253",
@@ -12726,7 +12922,8 @@
    "date_1re_immat": "2024-03-26",
    "plaque_empreinte": "eed466487c112bf3",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000997_VO607268": {
    "id": "renew:VEH_00000997_VO607268",
@@ -12742,7 +12939,8 @@
    "date_1re_immat": "2023-12-21",
    "plaque_empreinte": "44e149d23f0cac51",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00000997_VO608207": {
    "id": "renew:VEH_00000997_VO608207",
@@ -12758,7 +12956,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "a4fe39b72e246523",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001006_VO601208": {
    "id": "renew:VEH_00001006_VO601208",
@@ -12806,7 +13005,8 @@
    "date_1re_immat": "2023-09-28",
    "plaque_empreinte": "6a7dbf5ba9c6b7d6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027684": {
    "id": "renew:VEH_00001151_VO027684",
@@ -12838,7 +13038,8 @@
    "date_1re_immat": "2023-05-25",
    "plaque_empreinte": "aa99278b99809031",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027726": {
    "id": "renew:VEH_00001151_VO027726",
@@ -12870,7 +13071,8 @@
    "date_1re_immat": "2023-08-23",
    "plaque_empreinte": "98ca423e5f21ea61",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027785": {
    "id": "renew:VEH_00001151_VO027785",
@@ -12886,7 +13088,8 @@
    "date_1re_immat": "2023-05-23",
    "plaque_empreinte": "b5a87424e24cd753",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027812": {
    "id": "renew:VEH_00001151_VO027812",
@@ -12902,7 +13105,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "f6f95b18cc6fcc26",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027818": {
    "id": "renew:VEH_00001151_VO027818",
@@ -12918,7 +13122,8 @@
    "date_1re_immat": "2023-06-14",
    "plaque_empreinte": "a504b2cc3f040ca6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027854": {
    "id": "renew:VEH_00001151_VO027854",
@@ -12950,7 +13155,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "d04a46297cdf8ff9",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027857": {
    "id": "renew:VEH_00001151_VO027857",
@@ -13030,7 +13236,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "641d0ac684e8fe63",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027922": {
    "id": "renew:VEH_00001151_VO027922",
@@ -13078,7 +13285,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "f6faacdac4cdd341",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027950": {
    "id": "renew:VEH_00001151_VO027950",
@@ -13094,7 +13302,8 @@
    "date_1re_immat": "2023-03-31",
    "plaque_empreinte": "2ea9958dee83b381",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027963": {
    "id": "renew:VEH_00001151_VO027963",
@@ -13110,7 +13319,8 @@
    "date_1re_immat": "2023-06-16",
    "plaque_empreinte": "4b8c6adfc5bfcffe",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027990": {
    "id": "renew:VEH_00001151_VO027990",
@@ -13126,7 +13336,8 @@
    "date_1re_immat": "2023-07-20",
    "plaque_empreinte": "821ba62a1521d4c3",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001151_VO027997": {
    "id": "renew:VEH_00001151_VO027997",
@@ -13158,7 +13369,8 @@
    "date_1re_immat": "2023-06-19",
    "plaque_empreinte": "6bf43e94feebca3e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001154_VO109616": {
    "id": "renew:VEH_00001154_VO109616",
@@ -13206,7 +13418,8 @@
    "date_1re_immat": "2023-07-26",
    "plaque_empreinte": "b405c601f8eef7e5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001154_VO110437": {
    "id": "renew:VEH_00001154_VO110437",
@@ -13254,7 +13467,8 @@
    "date_1re_immat": "2024-04-08",
    "plaque_empreinte": "594ea99a4483d777",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001158_VO126206": {
    "id": "renew:VEH_00001158_VO126206",
@@ -13270,7 +13484,8 @@
    "date_1re_immat": "2024-02-23",
    "plaque_empreinte": "b47899829a91921b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001159_VO221399": {
    "id": "renew:VEH_00001159_VO221399",
@@ -13286,7 +13501,8 @@
    "date_1re_immat": "2023-06-28",
    "plaque_empreinte": "563d4f1699be2fec",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001159_VO221405": {
    "id": "renew:VEH_00001159_VO221405",
@@ -13302,7 +13518,8 @@
    "date_1re_immat": "2023-06-28",
    "plaque_empreinte": "73a86169974c6984",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001161_VO035137": {
    "id": "renew:VEH_00001161_VO035137",
@@ -13414,7 +13631,8 @@
    "date_1re_immat": "2023-06-19",
    "plaque_empreinte": "a477dc0c980be74b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001169_VO260488": {
    "id": "renew:VEH_00001169_VO260488",
@@ -13542,7 +13760,8 @@
    "date_1re_immat": "2025-07-24",
    "plaque_empreinte": "2e4c8e8421ca1731",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001173_VO042349": {
    "id": "renew:VEH_00001173_VO042349",
@@ -13686,7 +13905,8 @@
    "date_1re_immat": "2023-06-05",
    "plaque_empreinte": "09d1cfae9e06789d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001181_VO343354": {
    "id": "renew:VEH_00001181_VO343354",
@@ -13702,7 +13922,8 @@
    "date_1re_immat": "2023-03-29",
    "plaque_empreinte": "c94f3441bc9470b4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001184_VO049191": {
    "id": "renew:VEH_00001184_VO049191",
@@ -13718,7 +13939,8 @@
    "date_1re_immat": "2023-06-16",
    "plaque_empreinte": "4eb01c01e38eea8e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001184_VO049195": {
    "id": "renew:VEH_00001184_VO049195",
@@ -13750,7 +13972,8 @@
    "date_1re_immat": "2023-05-23",
    "plaque_empreinte": "835f9dc8a40b6e17",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001184_VO049253": {
    "id": "renew:VEH_00001184_VO049253",
@@ -13766,7 +13989,8 @@
    "date_1re_immat": "2025-11-03",
    "plaque_empreinte": "ab1eece61dfc9dcc",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001184_VO049286": {
    "id": "renew:VEH_00001184_VO049286",
@@ -13782,7 +14006,8 @@
    "date_1re_immat": "2025-10-02",
    "plaque_empreinte": "e449ea00ba910a48",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001184_VO049311": {
    "id": "renew:VEH_00001184_VO049311",
@@ -13798,7 +14023,8 @@
    "date_1re_immat": "2023-06-21",
    "plaque_empreinte": "f2cc4e6d16c1c8a5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001184_VO049315": {
    "id": "renew:VEH_00001184_VO049315",
@@ -13814,7 +14040,8 @@
    "date_1re_immat": "2025-10-17",
    "plaque_empreinte": "18214eab49b060bd",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001186_VO000188": {
    "id": "renew:VEH_00001186_VO000188",
@@ -13846,7 +14073,8 @@
    "date_1re_immat": "2024-08-12",
    "plaque_empreinte": "3d6d6a3310b92fd9",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001190_VO054764": {
    "id": "renew:VEH_00001190_VO054764",
@@ -13894,7 +14122,8 @@
    "date_1re_immat": "2025-03-17",
    "plaque_empreinte": "b57a119ac67e8b7d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001256_188617": {
    "id": "renew:VEH_00001256_188617",
@@ -13910,7 +14139,8 @@
    "date_1re_immat": "2025-06-02",
    "plaque_empreinte": "a788b05e55250e6c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001256_189598": {
    "id": "renew:VEH_00001256_189598",
@@ -13942,7 +14172,8 @@
    "date_1re_immat": "2023-06-01",
    "plaque_empreinte": "be25411108b90943",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001256_190223": {
    "id": "renew:VEH_00001256_190223",
@@ -13958,7 +14189,8 @@
    "date_1re_immat": "2025-11-03",
    "plaque_empreinte": "ecb1c92f96341084",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001256_190446": {
    "id": "renew:VEH_00001256_190446",
@@ -13990,7 +14222,8 @@
    "date_1re_immat": "2023-06-05",
    "plaque_empreinte": "84c211c0cf221fae",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001258_277911": {
    "id": "renew:VEH_00001258_277911",
@@ -14006,7 +14239,8 @@
    "date_1re_immat": "2025-05-12",
    "plaque_empreinte": "6d8d9752cc1f3650",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001258_278299": {
    "id": "renew:VEH_00001258_278299",
@@ -14022,7 +14256,8 @@
    "date_1re_immat": "2025-04-02",
    "plaque_empreinte": "014615906cb06f83",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001258_280441": {
    "id": "renew:VEH_00001258_280441",
@@ -14038,7 +14273,8 @@
    "date_1re_immat": "2025-04-02",
    "plaque_empreinte": "26196020e29e5123",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001258_282196": {
    "id": "renew:VEH_00001258_282196",
@@ -14102,7 +14338,8 @@
    "date_1re_immat": "2023-05-24",
    "plaque_empreinte": "340757351628920f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001258_282613": {
    "id": "renew:VEH_00001258_282613",
@@ -14118,7 +14355,8 @@
    "date_1re_immat": "2023-05-24",
    "plaque_empreinte": "8ce75baa2e3ab59b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001258_282621": {
    "id": "renew:VEH_00001258_282621",
@@ -14198,7 +14436,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "2a7ec9d41f98e0ae",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001260_VO113679": {
    "id": "renew:VEH_00001260_VO113679",
@@ -14230,7 +14469,8 @@
    "date_1re_immat": "2023-03-31",
    "plaque_empreinte": "353e5ecf2ca6de48",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001260_VO113701": {
    "id": "renew:VEH_00001260_VO113701",
@@ -14262,7 +14502,8 @@
    "date_1re_immat": "2025-06-03",
    "plaque_empreinte": "af3961fe7efdeb4a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001263_261679": {
    "id": "renew:VEH_00001263_261679",
@@ -14278,7 +14519,8 @@
    "date_1re_immat": "2025-05-02",
    "plaque_empreinte": "55b4c5af399295d6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001263_261796": {
    "id": "renew:VEH_00001263_261796",
@@ -14294,7 +14536,8 @@
    "date_1re_immat": "2025-04-11",
    "plaque_empreinte": "eb815d2c52d7542d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001263_261895": {
    "id": "renew:VEH_00001263_261895",
@@ -14310,7 +14553,8 @@
    "date_1re_immat": "2025-05-22",
    "plaque_empreinte": "b61aa66026a48255",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001263_263573": {
    "id": "renew:VEH_00001263_263573",
@@ -14326,7 +14570,8 @@
    "date_1re_immat": "2023-06-29",
    "plaque_empreinte": "64ce9781a10030a7",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001263_263580": {
    "id": "renew:VEH_00001263_263580",
@@ -14342,7 +14587,8 @@
    "date_1re_immat": "2025-04-08",
    "plaque_empreinte": "c84f963405ade0e8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001263_264812": {
    "id": "renew:VEH_00001263_264812",
@@ -14374,7 +14620,8 @@
    "date_1re_immat": "2023-02-02",
    "plaque_empreinte": "eb3f2b98437c7c44",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001263_265168": {
    "id": "renew:VEH_00001263_265168",
@@ -14390,7 +14637,8 @@
    "date_1re_immat": "2023-04-27",
    "plaque_empreinte": "ba9d4d9b3f761825",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001263_265577": {
    "id": "renew:VEH_00001263_265577",
@@ -14406,7 +14654,8 @@
    "date_1re_immat": "2023-06-28",
    "plaque_empreinte": "3f966e8ff7b1d07f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001263_265600": {
    "id": "renew:VEH_00001263_265600",
@@ -14422,7 +14671,8 @@
    "date_1re_immat": "2025-06-04",
    "plaque_empreinte": "01b19986fbec751a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001265_225123": {
    "id": "renew:VEH_00001265_225123",
@@ -14502,7 +14752,8 @@
    "date_1re_immat": "2025-04-17",
    "plaque_empreinte": "b75761654ce44701",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001265_227122": {
    "id": "renew:VEH_00001265_227122",
@@ -14518,7 +14769,8 @@
    "date_1re_immat": "2023-06-29",
    "plaque_empreinte": "dcb00a05ccc61a8a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001265_227257": {
    "id": "renew:VEH_00001265_227257",
@@ -14582,7 +14834,8 @@
    "date_1re_immat": "2023-06-27",
    "plaque_empreinte": "4b47adc1dd9f6ff4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001265_227952": {
    "id": "renew:VEH_00001265_227952",
@@ -14614,7 +14867,8 @@
    "date_1re_immat": "2025-04-01",
    "plaque_empreinte": "a23c1e31d389feda",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001268_332297": {
    "id": "renew:VEH_00001268_332297",
@@ -14630,7 +14884,8 @@
    "date_1re_immat": "2023-03-10",
    "plaque_empreinte": "64492bc994c791d2",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001268_332514": {
    "id": "renew:VEH_00001268_332514",
@@ -14646,7 +14901,8 @@
    "date_1re_immat": "2023-05-11",
    "plaque_empreinte": "ffd37939f7285f9a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001268_332565": {
    "id": "renew:VEH_00001268_332565",
@@ -14710,7 +14966,8 @@
    "date_1re_immat": "2023-02-15",
    "plaque_empreinte": "0d62cf61cdac328e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001268_332753": {
    "id": "renew:VEH_00001268_332753",
@@ -14726,7 +14983,8 @@
    "date_1re_immat": "2023-06-14",
    "plaque_empreinte": "ddf810311432849f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001269_233975": {
    "id": "renew:VEH_00001269_233975",
@@ -14742,7 +15000,8 @@
    "date_1re_immat": "2026-02-04",
    "plaque_empreinte": "7da55b974ad1d12b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001269_235420": {
    "id": "renew:VEH_00001269_235420",
@@ -14758,7 +15017,8 @@
    "date_1re_immat": "2023-07-13",
    "plaque_empreinte": "33e625481cdbbc2f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001270_VO711114": {
    "id": "renew:VEH_00001270_VO711114",
@@ -14774,7 +15034,8 @@
    "date_1re_immat": "2023-05-24",
    "plaque_empreinte": "1d7c84939d04dc79",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001273_VO308803": {
    "id": "renew:VEH_00001273_VO308803",
@@ -14790,7 +15051,8 @@
    "date_1re_immat": "2023-03-06",
    "plaque_empreinte": "99893b1fcb33b98b",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001273_VO308804": {
    "id": "renew:VEH_00001273_VO308804",
@@ -14822,7 +15084,8 @@
    "date_1re_immat": "2023-01-10",
    "plaque_empreinte": "66fafad6b5644065",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001284_VO107114": {
    "id": "renew:VEH_00001284_VO107114",
@@ -14838,7 +15101,8 @@
    "date_1re_immat": "2023-08-01",
    "plaque_empreinte": "5b8ef349a53c480c",
    "premiere_vue": "2026-08-27T12:46:15",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001284_VO107159": {
    "id": "renew:VEH_00001284_VO107159",
@@ -14870,7 +15134,8 @@
    "date_1re_immat": "2023-06-21",
    "plaque_empreinte": "4eb4358bcec694c9",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001284_VO107185": {
    "id": "renew:VEH_00001284_VO107185",
@@ -14886,7 +15151,8 @@
    "date_1re_immat": "2023-06-26",
    "plaque_empreinte": "869e742a1e217247",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001284_VO107202": {
    "id": "renew:VEH_00001284_VO107202",
@@ -14934,7 +15200,8 @@
    "date_1re_immat": "2023-06-15",
    "plaque_empreinte": "19222f8f80ce00ae",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001286_VO205555": {
    "id": "renew:VEH_00001286_VO205555",
@@ -14950,7 +15217,8 @@
    "date_1re_immat": "2023-03-29",
    "plaque_empreinte": "c4205c5f2ec9bb7f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001290_VO666646": {
    "id": "renew:VEH_00001290_VO666646",
@@ -14966,7 +15234,8 @@
    "date_1re_immat": "2024-06-26",
    "plaque_empreinte": "97eb156d22a56058",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001290_VO766729": {
    "id": "renew:VEH_00001290_VO766729",
@@ -15014,7 +15283,8 @@
    "date_1re_immat": "2023-07-31",
    "plaque_empreinte": "b94c536dae3a3236",
    "premiere_vue": "2026-08-27T15:01:21",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001291_VO192564": {
    "id": "renew:VEH_00001291_VO192564",
@@ -15094,7 +15364,8 @@
    "date_1re_immat": "2023-06-23",
    "plaque_empreinte": "86eed400838338c2",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001302_VO701497": {
    "id": "renew:VEH_00001302_VO701497",
@@ -15126,7 +15397,8 @@
    "date_1re_immat": "2023-07-11",
    "plaque_empreinte": "48fbf8f0ece7c209",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001314_VO027204": {
    "id": "renew:VEH_00001314_VO027204",
@@ -15190,7 +15462,8 @@
    "date_1re_immat": "2023-05-05",
    "plaque_empreinte": "9f94568f34a35196",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001319_VO601534": {
    "id": "renew:VEH_00001319_VO601534",
@@ -15206,7 +15479,8 @@
    "date_1re_immat": "2023-06-27",
    "plaque_empreinte": "13cc89d9897b9da4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001319_VO601560": {
    "id": "renew:VEH_00001319_VO601560",
@@ -15238,7 +15512,8 @@
    "date_1re_immat": "2023-04-24",
    "plaque_empreinte": "bcf33a4d756dfe1d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001321_VO016065": {
    "id": "renew:VEH_00001321_VO016065",
@@ -15254,7 +15529,8 @@
    "date_1re_immat": "2023-07-19",
    "plaque_empreinte": "79ec2527b8f987ed",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001325_VO406020": {
    "id": "renew:VEH_00001325_VO406020",
@@ -15318,7 +15594,8 @@
    "date_1re_immat": "2023-05-17",
    "plaque_empreinte": "90db3cd397ee28de",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_00001355_VO203436": {
    "id": "renew:VEH_00001355_VO203436",
@@ -15334,7 +15611,8 @@
    "date_1re_immat": "2023-07-04",
    "plaque_empreinte": "f178760cc5140592",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25000009_VO006838": {
    "id": "renew:VEH_25000009_VO006838",
@@ -15350,7 +15628,8 @@
    "date_1re_immat": "2023-12-15",
    "plaque_empreinte": "062cdfa2e9ecbcc7",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25000009_VO006947": {
    "id": "renew:VEH_25000009_VO006947",
@@ -15398,7 +15677,8 @@
    "date_1re_immat": "2025-05-16",
    "plaque_empreinte": "7281a5afd39ef071",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25000012_VO009170": {
    "id": "renew:VEH_25000012_VO009170",
@@ -15414,7 +15694,8 @@
    "date_1re_immat": "2025-03-20",
    "plaque_empreinte": "d16cce562f60e9a0",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25000012_VO009184": {
    "id": "renew:VEH_25000012_VO009184",
@@ -15462,7 +15743,8 @@
    "date_1re_immat": "2023-03-21",
    "plaque_empreinte": "4bbf79dbfa6eb8ee",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25000012_VO009496": {
    "id": "renew:VEH_25000012_VO009496",
@@ -15478,7 +15760,8 @@
    "date_1re_immat": "2023-03-29",
    "plaque_empreinte": "64310fb6827a7efb",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25000012_VO009515": {
    "id": "renew:VEH_25000012_VO009515",
@@ -15558,7 +15841,8 @@
    "date_1re_immat": "2023-07-05",
    "plaque_empreinte": "7b344386c8149c77",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25000012_VO009776": {
    "id": "renew:VEH_25000012_VO009776",
@@ -15574,7 +15858,8 @@
    "date_1re_immat": "2023-06-15",
    "plaque_empreinte": "c958ccb57557685a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25000012_VO009792": {
    "id": "renew:VEH_25000012_VO009792",
@@ -15590,7 +15875,8 @@
    "date_1re_immat": "2023-06-12",
    "plaque_empreinte": "be7d92864396fa6a",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25000012_VO009849": {
    "id": "renew:VEH_25000012_VO009849",
@@ -15638,7 +15924,8 @@
    "date_1re_immat": "2023-06-16",
    "plaque_empreinte": "1d3b0511c6e558df",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25002084_VO012831": {
    "id": "renew:VEH_25002084_VO012831",
@@ -15654,7 +15941,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "359b5d9c2fe3506e",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25002712_VO263545": {
    "id": "renew:VEH_25002712_VO263545",
@@ -15670,7 +15958,8 @@
    "date_1re_immat": "2023-05-24",
    "plaque_empreinte": "322a20d59de383e1",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25002712_VO264039": {
    "id": "renew:VEH_25002712_VO264039",
@@ -15766,7 +16055,8 @@
    "date_1re_immat": "2023-03-28",
    "plaque_empreinte": "d43f70bb087ccfb7",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO009483": {
    "id": "renew:VEH_25003520_VO009483",
@@ -15814,7 +16104,8 @@
    "date_1re_immat": "2023-03-29",
    "plaque_empreinte": "50f442c5458722ab",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO009688": {
    "id": "renew:VEH_25003520_VO009688",
@@ -15846,7 +16137,8 @@
    "date_1re_immat": "2023-03-29",
    "plaque_empreinte": "c4e9a50d3c47b1cf",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO009731": {
    "id": "renew:VEH_25003520_VO009731",
@@ -15862,7 +16154,8 @@
    "date_1re_immat": "2023-06-16",
    "plaque_empreinte": "b2b142fe81f9e8ed",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO009819": {
    "id": "renew:VEH_25003520_VO009819",
@@ -15910,7 +16203,8 @@
    "date_1re_immat": "2023-03-30",
    "plaque_empreinte": "4f04b90d3ec8cd50",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO009931": {
    "id": "renew:VEH_25003520_VO009931",
@@ -15958,7 +16252,8 @@
    "date_1re_immat": "2023-04-28",
    "plaque_empreinte": "d8fa2d3ecad3b659",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO010005": {
    "id": "renew:VEH_25003520_VO010005",
@@ -15974,7 +16269,8 @@
    "date_1re_immat": "2024-03-25",
    "plaque_empreinte": "0aaf5ec48d08cd05",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO010127": {
    "id": "renew:VEH_25003520_VO010127",
@@ -16038,7 +16334,8 @@
    "date_1re_immat": "2023-06-21",
    "plaque_empreinte": "5908fea215497c92",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO010198": {
    "id": "renew:VEH_25003520_VO010198",
@@ -16054,7 +16351,8 @@
    "date_1re_immat": "2023-05-22",
    "plaque_empreinte": "7f19aac398dc9152",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO010201": {
    "id": "renew:VEH_25003520_VO010201",
@@ -16070,7 +16368,8 @@
    "date_1re_immat": "2023-06-20",
    "plaque_empreinte": "d0a930f8d8b7bbf0",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO010207": {
    "id": "renew:VEH_25003520_VO010207",
@@ -16134,7 +16433,8 @@
    "date_1re_immat": "2023-06-15",
    "plaque_empreinte": "3ca35062406db4a6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO010238": {
    "id": "renew:VEH_25003520_VO010238",
@@ -16182,7 +16482,8 @@
    "date_1re_immat": "2023-05-30",
    "plaque_empreinte": "7b2f256eb6823e27",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003520_VO010359": {
    "id": "renew:VEH_25003520_VO010359",
@@ -16214,7 +16515,8 @@
    "date_1re_immat": "2023-07-12",
    "plaque_empreinte": "c8144907a79d55d5",
    "premiere_vue": "2026-08-27T15:30:59",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003521_VO003028": {
    "id": "renew:VEH_25003521_VO003028",
@@ -16294,7 +16596,8 @@
    "date_1re_immat": "2023-01-12",
    "plaque_empreinte": "abb9683b18176bc6",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003556_VO006918": {
    "id": "renew:VEH_25003556_VO006918",
@@ -16310,7 +16613,8 @@
    "date_1re_immat": "2025-04-08",
    "plaque_empreinte": "ba215d24dd5640ce",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003556_VO006920": {
    "id": "renew:VEH_25003556_VO006920",
@@ -16374,7 +16678,8 @@
    "date_1re_immat": "2023-03-22",
    "plaque_empreinte": "607b07e9b76a4d03",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003556_VO007836": {
    "id": "renew:VEH_25003556_VO007836",
@@ -16406,7 +16711,8 @@
    "date_1re_immat": "2024-05-14",
    "plaque_empreinte": "e123be8510817506",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003556_VO007917": {
    "id": "renew:VEH_25003556_VO007917",
@@ -16422,7 +16728,8 @@
    "date_1re_immat": "2023-07-17",
    "plaque_empreinte": "d42a1acb862c462f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003623_10326": {
    "id": "renew:VEH_25003623_10326",
@@ -16470,7 +16777,8 @@
    "date_1re_immat": "2023-06-27",
    "plaque_empreinte": "57447df47e79dec1",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003623_9748": {
    "id": "renew:VEH_25003623_9748",
@@ -16534,7 +16842,8 @@
    "date_1re_immat": "2023-03-07",
    "plaque_empreinte": "580e4b3158245c2c",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003653_VO001470": {
    "id": "renew:VEH_25003653_VO001470",
@@ -16550,7 +16859,8 @@
    "date_1re_immat": "2023-06-21",
    "plaque_empreinte": "db87d905e2345889",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003653_VO001867": {
    "id": "renew:VEH_25003653_VO001867",
@@ -16566,7 +16876,8 @@
    "date_1re_immat": "2023-05-15",
    "plaque_empreinte": "7d98b71df15e16a4",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003653_VO001877": {
    "id": "renew:VEH_25003653_VO001877",
@@ -16630,7 +16941,8 @@
    "date_1re_immat": "2023-08-28",
    "plaque_empreinte": "3430d47e2bab5e05",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003671_VO001825": {
    "id": "renew:VEH_25003671_VO001825",
@@ -16646,7 +16958,8 @@
    "date_1re_immat": "2024-02-21",
    "plaque_empreinte": "c65952120c471922",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003746_VO070586": {
    "id": "renew:VEH_25003746_VO070586",
@@ -16662,7 +16975,8 @@
    "date_1re_immat": "2023-07-26",
    "plaque_empreinte": "9ce3746e7dd7367d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003746_VO070649": {
    "id": "renew:VEH_25003746_VO070649",
@@ -16710,7 +17024,8 @@
    "date_1re_immat": "2023-05-17",
    "plaque_empreinte": "13cd0efc3475a474",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003751_VO070321": {
    "id": "renew:VEH_25003751_VO070321",
@@ -16774,7 +17089,8 @@
    "date_1re_immat": "2023-03-20",
    "plaque_empreinte": "ae5cabb00791a0ad",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003753_VO070612": {
    "id": "renew:VEH_25003753_VO070612",
@@ -16790,7 +17106,8 @@
    "date_1re_immat": "2023-05-11",
    "plaque_empreinte": "366183a707573c31",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T17:01:12"
   },
   "renew:VEH_25003753_VO070689": {
    "id": "renew:VEH_25003753_VO070689",
