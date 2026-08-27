@@ -7,9 +7,10 @@ recherche:
   # Sites interrogés, par ordre de priorité. Quand la même voiture est publiée
   # sur plusieurs sites (repérée par sa plaque), c'est la version du premier
   # site de la liste qui est retenue — renew.auto en tête car lui seul publie
-  # l'état de santé de la batterie.
+  # l'état de santé de la batterie, leboncoin en queue car il ne publie pas la
+  # plaque, ce qui rend son dédoublonnage moins sûr.
   # Retirer un nom de la liste désactive le site.
-  sources: [renew, autoscout24]
+  sources: [renew, autoscout24, leboncoin]
 
   # Modèle ciblé sur renew.auto (valeurs exactes de l'API)
   marque: RENAULT

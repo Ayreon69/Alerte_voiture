@@ -9,3 +9,5 @@ data/annonces.csv
 
 __pycache__/
 *.pyc
+
+.venv/

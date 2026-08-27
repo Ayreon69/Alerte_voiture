@@ -70,23 +70,69 @@ def collecter(cfg: Config) -> tuple[list[dict], list[str]]:
     return dedoublonner(annonces), echecs
 
 
+def cles_identite(a: dict) -> list:
+    """Clés permettant de reconnaître une même voiture d'un site à l'autre.
+
+    La plaque d'immatriculation est la seule vraiment fiable : renew.auto la
+    publie, et AutoScout24 la glisse dans son `crossReferenceId`. LeBonCoin ne
+    la publie pas du tout — sans repli, chaque voiture qu'un concessionnaire y
+    republie alerterait deux fois.
+
+    D'où l'empreinte : kilométrage exact, mois de première mise en circulation
+    et département. Le kilométrage au kilomètre près suffit presque seul à
+    identifier un véhicule ; les deux autres champs sont là pour écarter la
+    coïncidence. Elle n'est calculée que si les trois sont connus — une
+    empreinte incomplète confondrait des voitures différentes, ce qui est bien
+    pire qu'un doublon.
+    """
+    cles = []
+    plaque = (a.get("immatriculation") or "").upper().replace(" ", "")
+    if plaque:
+        cles.append(("plaque", plaque))
+    km, immat, dep = a.get("km"), a.get("date_1re_immat"), a.get("departement")
+    if km and immat and dep:
+        # AutoScout24 et LeBonCoin s'arretent au mois, renew.auto donne le
+        # jour : on tronque au mois, la precision commune aux trois.
+        cles.append(("empreinte", int(km), str(immat)[:7], str(dep)))
+    return cles
+
+
+def plaques_incompatibles(a: dict, b: dict) -> bool:
+    """Deux plaques connues et differentes : deux voitures differentes.
+
+    Garde-fou sur l'empreinte, qui pourrait sinon confondre deux exemplaires
+    jumeaux du meme concessionnaire — meme mois, meme departement, et un
+    compteur arrete au meme kilometre. La plaque, quand les deux sites la
+    publient, a toujours le dernier mot.
+    """
+    pa = (a.get("immatriculation") or "").upper().replace(" ", "")
+    pb = (b.get("immatriculation") or "").upper().replace(" ", "")
+    return bool(pa and pb and pa != pb)
+
+
 def dedoublonner(annonces: list[dict]) -> list[dict]:
     """Une même voiture publiée sur deux sites ne doit alerter qu'une fois.
 
-    La plaque d'immatriculation sert de clé : renew.auto la publie, et
-    AutoScout24 la glisse dans son `crossReferenceId`. On garde la version de
-    la source arrivée en premier, l'ordre de `sources` en configuration allant
-    de la plus riche à la moins riche.
+    On garde la version de la source arrivée en premier, l'ordre de `sources`
+    en configuration allant de la plus riche à la moins riche.
     """
     vues, sortie = {}, []
     for a in annonces:
-        cle = (a.get("immatriculation") or "").upper().replace(" ", "")
-        if cle and cle in vues:
-            vues[cle]["aussi_sur"].append(a["source"])
+        cles = cles_identite(a)
+        deja = next((vues[c] for c in cles
+                     if c in vues and not plaques_incompatibles(vues[c], a)), None)
+        if deja is not None:
+            deja["aussi_sur"].append(a["source"])
+            # La retrouvaille vaut pour toutes les cles de l'annonce ecartee :
+            # une annonce reconnue par sa plaque doit aussi rendre son
+            # empreinte reconnaissable, sinon un troisieme site passerait au
+            # travers.
+            for c in cles:
+                vues.setdefault(c, deja)
             continue
         a["aussi_sur"] = []
-        if cle:
-            vues[cle] = a
+        for c in cles:
+            vues[c] = a
         sortie.append(a)
     return sortie
 

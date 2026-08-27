@@ -1,17 +1,21 @@
 # Alerte Mégane E-Tech EV60
 
-Surveillance automatique des annonces de **Renault Mégane E-Tech électrique EV60, 2023 ou plus récente**, sur [renew.auto](https://fr.renew.auto) et [AutoScout24](https://www.autoscout24.fr). Dès qu'une annonce apparaît, une notification tombe sur Discord.
+Surveillance automatique des annonces de **Renault Mégane E-Tech électrique EV60, 2023 ou plus récente**, sur [renew.auto](https://fr.renew.auto), [AutoScout24](https://www.autoscout24.fr) et [LeBonCoin](https://www.leboncoin.fr). Dès qu'une annonce apparaît, une notification tombe sur Discord.
 
-Environ **1000 véhicules** correspondent aux critères en France. Prix de 19 990 € à 40 990 €, médiane 25 490 €.
+Environ **1200 véhicules** correspondent aux critères en France. Prix de 17 000 € à 44 000 €, médiane 25 480 €.
 
-| Source | Annonces | Apport |
+| Source | Apport | Ce qu'elle amène de propre |
 |---|---|---|
-| renew.auto | 887 | Plateforme nationale Renault. Seule à publier l'**état de santé de la batterie** |
-| AutoScout24 | +119 | Stock des concessions (Autosphere surtout) absent de la plateforme nationale |
+| renew.auto | 882 | Plateforme nationale Renault. Seule à publier l'**état de santé de la batterie** |
+| AutoScout24 | +136 | Stock des concessions (Autosphere surtout) absent de la plateforme nationale |
+| LeBonCoin | +520 | Les **particuliers**, et les concessions multimarques qui ne publient que là |
 
-Les 33 voitures publiées sur les deux sites ne sont notifiées qu'une fois : le
-dédoublonnage se fait sur la plaque d'immatriculation, que renew.auto publie
-directement et qu'AutoScout24 glisse dans son identifiant interne.
+Près de 600 voitures sont publiées sur deux sites ou plus et ne sont pourtant
+notifiées qu'une fois. Le dédoublonnage se fait sur la plaque d'immatriculation,
+que renew.auto publie directement et qu'AutoScout24 glisse dans son identifiant
+interne. LeBonCoin ne la publie pas : pour ses annonces, la reconnaissance passe
+par une empreinte — kilométrage exact, mois de mise en circulation, département
+— et la plaque garde le dernier mot dès que les deux sites la donnent.
 
 ---
 
@@ -65,7 +69,7 @@ python run.py --lister 20
 | `--intervalle 15` | Force l'intervalle en minutes |
 | `--dry-run` | Aucune notification Discord, tout s'affiche en console |
 | `--reset` | Oublie les annonces connues et repart de zéro |
-| `--forcer-alertes` | Notifie même au premier lancement (déconseillé : ~890 annonces) |
+| `--forcer-alertes` | Notifie même au premier lancement (déconseillé : ~1200 annonces) |
 | `--lister N` | Affiche les N annonces les moins chères puis sort |
 | `--test-discord` | Envoie un message de test sur le webhook |
 
@@ -86,9 +90,9 @@ santé batterie avec jauge, puissance de charge, couleur, concession avec télé
 finition, garantie et ancienneté de l'annonce.
 
 Photo en grand quand il y a trois annonces ou moins, en vignette au-delà, pour
-qu'un lot de vingt reste parcourable. Toutes les annonces publiées ont une photo ;
-si l'une venait à en manquer, c'est signalé explicitement plutôt que de laisser un
-trou dans la fiche.
+qu'un lot de vingt reste parcourable. La quasi-totalité des annonces ont une
+photo ; les quelques dizaines qui n'en ont pas — toutes sur LeBonCoin — sont
+signalées explicitement plutôt que de laisser un trou dans la fiche.
 
 ### Les badges
 
@@ -136,7 +140,7 @@ recherche:
   exclure_reserves: false
 ```
 
-Avec ~10 nouvelles annonces par jour sur toute la France, `prix_max`, `km_max` ou `departements` sont les leviers les plus efficaces pour calmer le flux.
+Avec ~15 nouvelles annonces par jour sur toute la France, `prix_max`, `km_max` ou `departements` sont les leviers les plus efficaces pour calmer le flux.
 
 `max_notifications` (défaut : 20) plafonne le nombre d'annonces détaillées envoyées par exécution — au-delà, l'en-tête indique le total réel et seules les moins chères sont détaillées.
 
@@ -229,16 +233,25 @@ crayon → *Commit changes*), ce qui évite tout conflit.
 
 ### Bon à savoir
 
-**La fréquence.** Une fois par heure par défaut (`cron: "7 * * * *"` dans
+**La fréquence.** Deux fois par heure (`cron: "23,53 * * * *"` dans
 [`.github/workflows/surveillance.yml`](.github/workflows/surveillance.yml)).
-Avec ~10 nouvelles annonces par jour, c'est largement suffisant. Pour passer à
-30 minutes, mettre `"*/30 * * * *"` — un dépôt privé dispose de 2000 minutes
-gratuites par mois et chaque passage en consomme environ une, donc 30 minutes
-(~1440 min/mois) tient, mais sans grande marge. Un dépôt public a des minutes
-illimitées.
+Avec ~15 nouvelles annonces par jour, une fois par heure suffirait ; le second
+passage est là pour amortir les créneaux sautés, pas pour aller plus vite. Un
+dépôt privé dispose de 2000 minutes gratuites par mois et chaque passage en
+consomme environ une : deux fois par heure (~1440 min/mois) tient, mais sans
+grande marge. Un dépôt public a des minutes illimitées.
 
-**L'horaire est en UTC** et GitHub exécute les tâches planifiées « au mieux » :
-un retard de 5 à 20 minutes est normal, sans conséquence ici.
+**L'horaire est en UTC** et GitHub exécute les tâches planifiées « au mieux ».
+Cela va plus loin qu'un simple retard : en période de charge, un créneau est
+tout bonnement **abandonné**. Observé sur ce dépôt le 27/08/2026 avec un cron à
+`"7 * * * *"` : quatre passages consécutifs sautés, et le seul abouti démarré
+21 minutes en retard.
+
+Le début d'heure est le pic mondial — c'est là que tout le monde planifie — et
+les dépôts gratuits y passent en dernier. D'où les minutes 23 et 53, choisies
+loin du pic. Aucun réglage ne rend ce déclencheur fiable à 100 % : si les
+alertes s'espacent sans raison, vérifier l'onglet *Actions* avant de soupçonner
+une panne du bot, et au besoin lancer un passage à la main avec *Run workflow*.
 
 **Après 60 jours sans activité**, GitHub désactive les workflows planifiés. Le
 bot commite son état à chaque nouveauté, ce qui entretient l'activité ; si la
@@ -357,12 +370,27 @@ l'affichage s'adapte : AutoScout24 ne donne ni l'état de santé batterie, ni la
 couleur, ni la date de publication, donc ces lignes disparaissent de la fiche au
 lieu d'afficher des points d'interrogation.
 
+Deux pièges rencontrés en intégrant LeBonCoin, à garder en tête pour le
+prochain site :
+
+- **Un 403 ne veut pas dire « site inaccessible ».** LeBonCoin avait été classé
+  bloqué lors du premier repérage ; en réalité il refuse les requêtes portant
+  des cookies. Une session neuve à chaque requête passe. C'est le rôle du
+  point d'accroche `avant_tentative()` du socle, appelé avant chaque essai —
+  sans lui, un réessai rejouerait l'échec à l'identique.
+- **Une pagination qui s'arrête n'est pas forcément un quota.** LeBonCoin
+  plafonne à 19 pages : au-delà c'est 403, quel que soit le rythme. Une
+  recherche plus large que 665 résultats serait donc tronquée en silence — le
+  pire des cas pour une surveillance. La source contourne le plafond en
+  découpant par tranches de prix, redécoupées en deux tant qu'elles ne tiennent
+  pas sous la limite.
+
 Repérages faits sur les autres sites :
 
 | Site | Accessible | Remarque |
 |---|---|---|
 | renew.auto | oui | **Intégré.** API JSON officielle |
 | AutoScout24 | oui | **Intégré.** Données en JSON dans `__NEXT_DATA__` |
-| Leboncoin | non (403) | Protection anti-bot, nécessiterait un navigateur automatisé |
-| La Centrale | non (403) | Idem |
+| LeBonCoin | oui | **Intégré.** `__NEXT_DATA__`, session neuve par requête, découpe par tranches de prix |
+| La Centrale | non (403) | Bloqué dès la première requête, cookies ou non |
 | Aramisauto, Autohero | à explorer | URLs de recherche non identifiées lors du repérage |

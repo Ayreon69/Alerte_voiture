@@ -8,11 +8,13 @@ première source de la liste, celle dont les données sont les plus riches.
 """
 from .base import ErreurSource, SourceBase
 from .autoscout24 import SourceAutoScout24
+from .leboncoin import SourceLeBonCoin
 from .renew import SourceRenew
 
 CATALOGUE = {
     "renew": SourceRenew,
     "autoscout24": SourceAutoScout24,
+    "leboncoin": SourceLeBonCoin,
 }
 
 
@@ -26,4 +28,4 @@ def sources_pour(cfg) -> dict:
 
 
 __all__ = ["CATALOGUE", "sources_pour", "SourceBase", "ErreurSource",
-           "SourceRenew", "SourceAutoScout24"]
+           "SourceRenew", "SourceAutoScout24", "SourceLeBonCoin"]

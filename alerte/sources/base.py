@@ -30,6 +30,10 @@ class ErreurSource(RuntimeError):
 class SourceBase:
     nom = "base"
     libelle = "source"
+    # Codes HTTP qu'il vaut la peine de rejouer. Attribut de classe et non
+    # constante figee : un site peut repondre par un code que lui seul
+    # considere comme passager (LeBonCoin et son 403 lie aux cookies).
+    reessayables = REESSAYABLES
 
     def __init__(self, cfg):
         self.cfg = cfg
@@ -40,6 +44,14 @@ class SourceBase:
         raise NotImplementedError
 
     # -- reseau ------------------------------------------------------------
+    def avant_tentative(self) -> None:
+        """Appele avant chaque tentative de `get`, y compris les reessais.
+
+        Sans point d'accroche ici, un reessai rejouerait la requete a
+        l'identique — donc avec les memes cookies, donc avec le meme refus
+        pour les sites qui bloquent la-dessus.
+        """
+
     def get(self, url: str, **kwargs) -> requests.Response:
         """GET avec réessais.
 
@@ -51,6 +63,7 @@ class SourceBase:
         kwargs.setdefault("timeout", 40)
         derniere = None
         for tentative in range(TENTATIVES):
+            self.avant_tentative()
             try:
                 r = self.session.get(url, **kwargs)
             except requests.RequestException as e:
@@ -58,7 +71,7 @@ class SourceBase:
             else:
                 if r.status_code == 200:
                     return r
-                if r.status_code not in REESSAYABLES:
+                if r.status_code not in self.reessayables:
                     raise ErreurSource(
                         "%s a répondu %s" % (self.libelle, r.status_code)
                     )
