@@ -72,7 +72,11 @@ class Etat:
         contenu = {
             "derniere_execution": datetime.now().isoformat(timespec="seconds"),
             "nb_annonces": len(self.annonces),
-            "annonces": self.annonces,
+            # Trie par identifiant, sinon l'ordre suit celui des reponses des
+            # sites -- qui varie d'un passage a l'autre. Le fichier etait alors
+            # reecrit en entier a chaque fois et git voyait bouger ses vingt
+            # mille lignes, meme quand rien n'avait change.
+            "annonces": dict(sorted(self.annonces.items())),
         }
         tmp = self.chemin.with_suffix(".tmp")
         tmp.write_text(
