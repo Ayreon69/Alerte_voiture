@@ -18,6 +18,8 @@ import os
 from datetime import datetime, timedelta
 from pathlib import Path
 
+from .identite import cles_identite, plaques_incompatibles
+
 CHAMPS_SUIVIS = ("prix", "km", "reserve")
 
 # Champs conservés d'une exécution à l'autre. Inutile de recopier toute
@@ -28,6 +30,9 @@ CHAMPS_SUIVIS = ("prix", "km", "reserve")
 CHAMPS_MEMOIRE = (
     "id", "url", "titre", "prix", "km", "annee", "batterie_soh",
     "ville", "departement", "reserve",
+    # De quoi reconnaitre le vehicule meme si l'identifiant change (voir
+    # `identites`). Deux champs courts, sans effet notable sur la taille.
+    "immatriculation", "date_1re_immat",
 )
 
 # L'index de renew.auto n'est pas parfaitement stable : une annonce peut
@@ -72,15 +77,44 @@ class Etat:
         )
         os.replace(tmp, self.chemin)
 
+    # -- identite ----------------------------------------------------------
+    def _index_identites(self) -> dict:
+        """Clés d'identité des annonces connues -> leur identifiant en mémoire."""
+        index = {}
+        for ident, fiche in self.annonces.items():
+            for cle in cles_identite(fiche):
+                index.setdefault(cle, ident)
+        return index
+
+    def _retrouver(self, a: dict, index: dict) -> dict | None:
+        """La fiche connue décrivant ce véhicule, quel que soit son identifiant.
+
+        L'identifiant seul ne suffit pas : quand renew.auto perd une annonce le
+        temps d'un passage, sa jumelle AutoScout24 la remplace avec un autre
+        identifiant. Sans cette reconnaissance, la voiture serait annoncée
+        comme neuve alors qu'elle est connue et déjà notifiée.
+        """
+        connu = self.annonces.get(a["id"])
+        if connu is not None:
+            return connu
+        for cle in cles_identite(a):
+            ident = index.get(cle)
+            fiche = self.annonces.get(ident) if ident else None
+            if fiche is not None and not plaques_incompatibles(fiche, a):
+                return fiche
+        return None
+
     # -- comparaison -------------------------------------------------------
     def comparer(self, annonces: list[dict]) -> dict:
         """Retourne {nouvelles, changements, disparues} sans modifier l'etat."""
         courant = {a["id"]: a for a in annonces}
-        nouvelles = [a for i, a in courant.items() if i not in self.annonces]
+        index = self._index_identites()
+        connues = {a["id"]: self._retrouver(a, index) for a in annonces}
+        nouvelles = [a for i, a in courant.items() if connues[i] is None]
 
         changements = []
         for ident, a in courant.items():
-            ancien = self.annonces.get(ident)
+            ancien = connues[ident]
             if not ancien:
                 continue
             diffs = {
@@ -92,11 +126,14 @@ class Etat:
                 changements.append({"annonce": a, "avant": ancien, "diffs": diffs})
 
         # Disparue = absente depuis assez longtemps pour que ce ne soit pas
-        # un simple clignotement de l'index.
+        # un simple clignotement de l'index. Une fiche encore representee par
+        # une annonce d'un autre site n'a evidemment pas disparu.
+        retrouvees = {id(f) for f in connues.values() if f is not None}
         disparues = [
             fiche
             for ident, fiche in self.annonces.items()
-            if ident not in courant and _absente_depuis_longtemps(fiche)
+            if ident not in courant and id(fiche) not in retrouvees
+            and _absente_depuis_longtemps(fiche)
         ]
         return {
             "nouvelles": nouvelles,
@@ -113,17 +150,24 @@ class Etat:
         """
         maintenant = datetime.now().isoformat(timespec="seconds")
         courant = {a["id"] for a in annonces}
+        index = self._index_identites()
         nouvel_etat = {}
+        # Fiches connues reprises sous un autre identifiant : a ne pas garder
+        # en double, sans quoi l'ancienne entree survivrait au delai de grace
+        # et pourrait realerter plus tard.
+        remplacees = set()
 
         for a in annonces:
-            ancien = self.annonces.get(a["id"]) or {}
+            ancien = self._retrouver(a, index) or {}
+            if ancien and ancien.get("id") and ancien["id"] != a["id"]:
+                remplacees.add(ancien["id"])
             fiche = {c: a.get(c) for c in CHAMPS_MEMOIRE}
             fiche["premiere_vue"] = ancien.get("premiere_vue") or maintenant
             fiche["derniere_vue"] = maintenant
             nouvel_etat[a["id"]] = fiche
 
         for ident, fiche in self.annonces.items():
-            if ident in courant:
+            if ident in courant or ident in remplacees:
                 continue
             if _absente_depuis_longtemps(fiche):
                 continue  # oubliee pour de bon

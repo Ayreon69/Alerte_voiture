@@ -17,6 +17,16 @@ interne. LeBonCoin ne la publie pas : pour ses annonces, la reconnaissance passe
 par une empreinte — kilométrage exact, mois de mise en circulation, département
 — et la plaque garde le dernier mot dès que les deux sites la donnent.
 
+**C'est l'annonce la moins chère qui est retenue**, dès lors que l'écart dépasse
+100 € ; en deçà, c'est le site le mieux renseigné qui l'emporte, car économiser
+quelques euros d'affichage ne vaut pas de perdre l'état de santé de la batterie.
+Les caractéristiques du véhicule manquantes sont empruntées aux autres annonces
+du même véhicule : on garde le meilleur prix **et** le SoH. Ce qui décrit le
+vendeur, en revanche, ne se transporte jamais — afficher « Particulier » avec le
+téléphone d'une concession serait trompeur au moment d'appeler. La fiche liste
+les autres publications avec leur prix, de quoi vérifier une offre qui semble
+trop belle.
+
 ---
 
 ## Installation

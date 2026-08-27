@@ -30,6 +30,7 @@ from alerte.notify import (
     entete_nouvelles,
 )
 from alerte.format import euros
+from alerte.identite import cles_identite, plaques_incompatibles
 from alerte.report import exporter_csv, par_prix
 from alerte.sources import ErreurSource, sources_pour
 from alerte.store import Etat, journaliser
@@ -37,6 +38,23 @@ from alerte.store import Etat, journaliser
 # En dessous de cette fraction de l'inventaire connu, on considere que la
 # source a un probleme plutot que le marche.
 SEUIL_INVENTAIRE_SUSPECT = 0.5
+
+# Ecart de prix a partir duquel on preferera l'annonce la moins chere a
+# l'annonce la mieux renseignee, quand la meme voiture est publiee sur
+# plusieurs sites. En dessous, l'ecart ne vaut pas la perte du SoH.
+ECART_PRIX_SIGNIFICATIF = 100
+
+# Ce qui décrit la VOITURE, et peut donc être emprunté à l'annonce d'un autre
+# site décrivant le même véhicule. Tout le reste — vendeur, téléphone, prix,
+# lien, photo, garantie, ancienneté de l'annonce — appartient à l'annonce et
+# ne se transporte pas : afficher « Particulier » avec le téléphone d'une
+# concession serait faux, et trompeur au moment d'appeler.
+CHAMPS_VEHICULE = (
+    "km", "annee", "date_1re_immat", "batterie_kwh", "batterie_soh",
+    "batterie_capacite_restante_kwh", "charge_ac_kw", "pompe_a_chaleur",
+    "puissance_ch", "couleur", "immatriculation", "vin", "prix_neuf",
+    "accidente", "controle_technique",
+)
 
 FICHIER_ETAT = DOSSIER_DATA / "state.json"
 FICHIER_CSV = DOSSIER_DATA / "annonces.csv"
@@ -70,71 +88,113 @@ def collecter(cfg: Config) -> tuple[list[dict], list[str]]:
     return dedoublonner(annonces), echecs
 
 
-def cles_identite(a: dict) -> list:
-    """Clés permettant de reconnaître une même voiture d'un site à l'autre.
+def grouper(annonces: list[dict]) -> list[list[dict]]:
+    """Regroupe les annonces qui décrivent le même véhicule.
 
-    La plaque d'immatriculation est la seule vraiment fiable : renew.auto la
-    publie, et AutoScout24 la glisse dans son `crossReferenceId`. LeBonCoin ne
-    la publie pas du tout — sans repli, chaque voiture qu'un concessionnaire y
-    republie alerterait deux fois.
-
-    D'où l'empreinte : kilométrage exact, mois de première mise en circulation
-    et département. Le kilométrage au kilomètre près suffit presque seul à
-    identifier un véhicule ; les deux autres champs sont là pour écarter la
-    coïncidence. Elle n'est calculée que si les trois sont connus — une
-    empreinte incomplète confondrait des voitures différentes, ce qui est bien
-    pire qu'un doublon.
+    Une voiture peut être reconnue par sa plaque sur un site et par son
+    empreinte sur un autre : les groupes doivent donc pouvoir fusionner en
+    cours de route, quand une troisième annonce fait le lien entre deux
+    groupes jusque-là séparés.
     """
-    cles = []
-    plaque = (a.get("immatriculation") or "").upper().replace(" ", "")
-    if plaque:
-        cles.append(("plaque", plaque))
-    km, immat, dep = a.get("km"), a.get("date_1re_immat"), a.get("departement")
-    if km and immat and dep:
-        # AutoScout24 et LeBonCoin s'arretent au mois, renew.auto donne le
-        # jour : on tronque au mois, la precision commune aux trois.
-        cles.append(("empreinte", int(km), str(immat)[:7], str(dep)))
-    return cles
+    groupes: list[list[dict]] = []
+    index: dict = {}
+
+    for a in annonces:
+        cles = cles_identite(a)
+        cibles = sorted({
+            index[c] for c in cles
+            if c in index and not any(plaques_incompatibles(m, a)
+                                      for m in groupes[index[c]])
+        })
+        if not cibles:
+            g = len(groupes)
+            groupes.append([a])
+        else:
+            g = cibles[0]
+            groupes[g].append(a)
+            for autre in cibles[1:]:          # deux groupes se rejoignent
+                groupes[g].extend(groupes[autre])
+                groupes[autre] = []
+                for cle, cible in index.items():
+                    if cible == autre:
+                        index[cle] = g
+        for c in cles:
+            index[c] = g
+
+    return [g for g in groupes if g]
 
 
-def plaques_incompatibles(a: dict, b: dict) -> bool:
-    """Deux plaques connues et differentes : deux voitures differentes.
+def _prix_comparable(a: dict):
+    """Prix utilisable pour départager, ou None si l'annonce n'en affiche pas.
 
-    Garde-fou sur l'empreinte, qui pourrait sinon confondre deux exemplaires
-    jumeaux du meme concessionnaire — meme mois, meme departement, et un
-    compteur arrete au meme kilometre. La plaque, quand les deux sites la
-    publient, a toujours le dernier mot.
+    Un prix absent ou à zéro veut dire « prix non communiqué » : ce n'est pas
+    une bonne affaire à 0 €, et une telle annonce ne doit jamais gagner
+    l'arbitrage au prix.
     """
-    pa = (a.get("immatriculation") or "").upper().replace(" ", "")
-    pb = (b.get("immatriculation") or "").upper().replace(" ", "")
-    return bool(pa and pb and pa != pb)
+    prix = a.get("prix")
+    try:
+        prix = float(prix)
+    except (TypeError, ValueError):
+        return None
+    return prix if prix > 0 else None
+
+
+def choisir(groupe: list[dict]) -> dict:
+    """L'annonce à retenir parmi celles qui décrivent le même véhicule.
+
+    Le prix le plus bas gagne, mais seulement s'il est plus bas de plus de
+    `ECART_PRIX_SIGNIFICATIF`. En deçà, c'est la source la plus riche qui
+    l'emporte — l'ordre de `sources` en configuration, renew.auto en tête car
+    lui seul publie l'état de santé de la batterie. Basculer sur un autre site
+    pour économiser quelques euros d'affichage ferait perdre le SoH, ce qui
+    est un mauvais marché.
+    """
+    riche = groupe[0]                          # ordre de collecte = priorité
+    avec_prix = [(p, a) for a in groupe if (p := _prix_comparable(a)) is not None]
+    if not avec_prix:
+        return riche
+    moins_cher = min(avec_prix, key=lambda t: t[0])[1]
+    prix_riche = _prix_comparable(riche)
+    if prix_riche is None:
+        return moins_cher
+    if prix_riche - _prix_comparable(moins_cher) > ECART_PRIX_SIGNIFICATIF:
+        return moins_cher
+    return riche
+
+
+def fusionner(retenue: dict, groupe: list[dict]) -> dict:
+    """Complète l'annonce retenue avec ce que les autres sites publient.
+
+    Chaque site a ses trous : AutoScout24 et LeBonCoin ne donnent pas le SoH,
+    LeBonCoin n'affiche pas le téléphone du vendeur. Retenir le moins cher ne
+    doit pas faire perdre ce que les autres savaient de la même voiture — le
+    prix et le lien viennent de l'annonce retenue, le reste est complété par
+    les autres, dans l'ordre de richesse des sources.
+    """
+    fusion = dict(retenue)
+    for autre in groupe:
+        if autre is retenue:
+            continue
+        for champ in CHAMPS_VEHICULE:
+            # Un champ deja renseigne n'est jamais ecrase : la donnee de
+            # l'annonce retenue fait foi, les autres ne font que combler.
+            if not fusion.get(champ) and autre.get(champ):
+                fusion[champ] = autre[champ]
+
+    fusion["aussi_sur"] = [a["source"] for a in groupe
+                           if a["source"] != retenue["source"]]
+    # Les liens vers les autres publications de la meme voiture : c'est la que
+    # se verifie un prix qui semble trop beau.
+    fusion["autres_liens"] = [
+        {"source": a["source"], "url": a.get("url"), "prix": a.get("prix")}
+        for a in groupe if a is not retenue and a.get("url")
+    ]
+    return fusion
 
 
 def dedoublonner(annonces: list[dict]) -> list[dict]:
-    """Une même voiture publiée sur deux sites ne doit alerter qu'une fois.
-
-    On garde la version de la source arrivée en premier, l'ordre de `sources`
-    en configuration allant de la plus riche à la moins riche.
-    """
-    vues, sortie = {}, []
-    for a in annonces:
-        cles = cles_identite(a)
-        deja = next((vues[c] for c in cles
-                     if c in vues and not plaques_incompatibles(vues[c], a)), None)
-        if deja is not None:
-            deja["aussi_sur"].append(a["source"])
-            # La retrouvaille vaut pour toutes les cles de l'annonce ecartee :
-            # une annonce reconnue par sa plaque doit aussi rendre son
-            # empreinte reconnaissable, sinon un troisieme site passerait au
-            # travers.
-            for c in cles:
-                vues.setdefault(c, deja)
-            continue
-        a["aussi_sur"] = []
-        for c in cles:
-            vues[c] = a
-        sortie.append(a)
-    return sortie
+    """Une même voiture publiée sur deux sites ne doit alerter qu'une fois."""
+    return [fusionner(choisir(g), g) for g in grouper(annonces)]
 
 
 def evenement(type_: str, a: dict, prix_avant=None) -> dict:

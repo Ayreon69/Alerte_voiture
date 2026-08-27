@@ -4,11 +4,14 @@
 # ---------------------------------------------------------------------------
 
 recherche:
-  # Sites interrogés, par ordre de priorité. Quand la même voiture est publiée
-  # sur plusieurs sites (repérée par sa plaque), c'est la version du premier
-  # site de la liste qui est retenue — renew.auto en tête car lui seul publie
-  # l'état de santé de la batterie, leboncoin en queue car il ne publie pas la
-  # plaque, ce qui rend son dédoublonnage moins sûr.
+  # Sites interrogés, par ordre de richesse des données. Quand la même voiture
+  # est publiée sur plusieurs sites, c'est l'annonce la MOINS CHÈRE qui est
+  # retenue, à condition d'être moins chère de plus de 100 € ; en deçà, c'est
+  # le premier site de cette liste qui l'emporte. Les caractéristiques du
+  # véhicule absentes de l'annonce retenue sont complétées par les autres, si
+  # bien qu'on garde le meilleur prix sans perdre l'état de santé batterie.
+  # D'où l'ordre : renew.auto en tête car lui seul publie ce SoH, leboncoin en
+  # queue car il ne publie pas la plaque.
   # Retirer un nom de la liste désactive le site.
   sources: [renew, autoscout24, leboncoin]
 

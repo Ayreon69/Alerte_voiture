@@ -172,6 +172,28 @@ LIBELLES_SOURCES = {
 }
 
 
+def _autres_publications(a: dict) -> str:
+    """Les autres sites où la même voiture est en vente, avec leur prix.
+
+    L'ecart est affiche par rapport au prix retenu : c'est lui qui dit si la
+    difference vaut le detour, ou si les deux annonces sont au meme prix.
+    """
+    lignes = []
+    retenu = a.get("prix")
+    for autre in a.get("autres_liens") or []:
+        nom = LIBELLES_SOURCES.get(autre.get("source"), autre.get("source") or "?")
+        prix = autre.get("prix")
+        if prix and retenu:
+            ecart = int(prix) - int(retenu)
+            montant = euros(prix)
+            if ecart > 0:
+                montant += " (+%s)" % euros(ecart)
+        else:
+            montant = euros(prix) if prix else "prix non communiqué"
+        lignes.append("[%s — %s](%s)" % (nom, montant, autre.get("url")))
+    return "\n".join(lignes)[:1000]
+
+
 def _pied_de_page(a: dict) -> str:
     """Provenance, date de publication si connue, immatriculation."""
     bouts = [LIBELLES_SOURCES.get(a.get("source"), a.get("source") or "?")]
@@ -282,6 +304,16 @@ def embed_annonce(
             "inline": True,
         })
     champs.extend(bas)
+
+    # La meme voiture ailleurs, avec son prix la-bas : c'est ce qui permet de
+    # verifier un prix qui semble trop beau, et de choisir l'interlocuteur.
+    autres = _autres_publications(a)
+    if autres:
+        champs.append({
+            "name": "🔁  Aussi en vente sur",
+            "value": autres,
+            "inline": False,
+        })
 
     embed = {
         "author": {"name": entete},
