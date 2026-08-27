@@ -1,6 +1,6 @@
 {
- "derniere_execution": "2026-08-27T15:30:59",
- "nb_annonces": 1048,
+ "derniere_execution": "2026-08-27T16:30:58",
+ "nb_annonces": 1049,
  "annonces": {
   "autoscout24:0003d393-bb16-40bc-9e3d-10c5aa9ecd03": {
    "id": "autoscout24:0003d393-bb16-40bc-9e3d-10c5aa9ecd03",
@@ -7259,7 +7259,8 @@
    "date_1re_immat": "2023-05-31",
    "plaque_empreinte": "87eec2836fa8949f",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000430_VO026301": {
    "id": "renew:VEH_00000430_VO026301",
@@ -7291,7 +7292,8 @@
    "date_1re_immat": "2023-06-12",
    "plaque_empreinte": "0904871e780aad65",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000432_VO103419": {
    "id": "renew:VEH_00000432_VO103419",
@@ -7339,7 +7341,8 @@
    "date_1re_immat": "2023-06-05",
    "plaque_empreinte": "5af2887ff80b292d",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000433_VO101775": {
    "id": "renew:VEH_00000433_VO101775",
@@ -7355,7 +7358,8 @@
    "date_1re_immat": "2023-03-22",
    "plaque_empreinte": "6080672c0909f7e5",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000441_VO022294": {
    "id": "renew:VEH_00000441_VO022294",
@@ -7387,7 +7391,8 @@
    "date_1re_immat": "2023-05-10",
    "plaque_empreinte": "8f0e9165f7053072",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000441_VO022572": {
    "id": "renew:VEH_00000441_VO022572",
@@ -7403,7 +7408,8 @@
    "date_1re_immat": "2023-07-17",
    "plaque_empreinte": "16045c8fc02ba5ce",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000442_VO004438": {
    "id": "renew:VEH_00000442_VO004438",
@@ -7419,7 +7425,8 @@
    "date_1re_immat": "2024-09-27",
    "plaque_empreinte": "94e7be166238d811",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000442_VO004499": {
    "id": "renew:VEH_00000442_VO004499",
@@ -7435,7 +7442,8 @@
    "date_1re_immat": "2023-03-30",
    "plaque_empreinte": "2be4e7f80482b7c8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000442_VO004567": {
    "id": "renew:VEH_00000442_VO004567",
@@ -7451,7 +7459,8 @@
    "date_1re_immat": "2023-04-26",
    "plaque_empreinte": "6917af63766e75db",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000443_VO426360": {
    "id": "renew:VEH_00000443_VO426360",
@@ -7563,7 +7572,8 @@
    "date_1re_immat": "2023-06-28",
    "plaque_empreinte": "260675b92fc547b8",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000452_VO326489": {
    "id": "renew:VEH_00000452_VO326489",
@@ -7579,7 +7589,8 @@
    "date_1re_immat": "2023-03-02",
    "plaque_empreinte": "b767ffad6fa3d443",
    "premiere_vue": "2026-08-26T22:54:52",
-   "derniere_vue": "2026-08-27"
+   "derniere_vue": "2026-08-27",
+   "absente_depuis": "2026-08-27T16:30:58"
   },
   "renew:VEH_00000456_VO050545": {
    "id": "renew:VEH_00000456_VO050545",
@@ -14827,6 +14838,22 @@
    "date_1re_immat": "2023-08-01",
    "plaque_empreinte": "5b8ef349a53c480c",
    "premiere_vue": "2026-08-27T12:46:15",
+   "derniere_vue": "2026-08-27"
+  },
+  "renew:VEH_00001284_VO107159": {
+   "id": "renew:VEH_00001284_VO107159",
+   "url": "https://fr.renew.auto/achat-vehicules-occasions/details.html?productId=VEH_00001284_VO107159",
+   "titre": "Megane E-Tech EV60 220 ch super charge Techno",
+   "prix": 24980,
+   "km": 27540,
+   "annee": 2023,
+   "batterie_soh": 95,
+   "ville": "OSNY",
+   "departement": "95",
+   "reserve": false,
+   "date_1re_immat": "2023-06-23",
+   "plaque_empreinte": "e5f200a4dfb17888",
+   "premiere_vue": "2026-08-27T16:30:58",
    "derniere_vue": "2026-08-27"
   },
   "renew:VEH_00001284_VO107167": {
