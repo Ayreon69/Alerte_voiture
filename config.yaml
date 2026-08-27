@@ -13,7 +13,11 @@ recherche:
   # D'où l'ordre : renew.auto en tête car lui seul publie ce SoH, leboncoin en
   # queue car il ne publie pas la plaque.
   # Retirer un nom de la liste désactive le site.
-  sources: [renew, autoscout24, leboncoin]
+  # leboncoin est retire tant que la surveillance tourne sur GitHub Actions :
+  # le site refuse les IP de datacenter (403 immediat) et ne repond qu'aux IP
+  # residentielles. Le remettre dans la liste des que le bot tourne depuis une
+  # machine derriere une box -- il fonctionne parfaitement de la.
+  sources: [renew, autoscout24]
 
   # Modèle ciblé sur renew.auto (valeurs exactes de l'API)
   marque: RENAULT

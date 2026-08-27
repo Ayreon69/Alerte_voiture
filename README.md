@@ -10,6 +10,12 @@ Environ **1200 véhicules** correspondent aux critères en France. Prix de 17 00
 | AutoScout24 | +136 | Stock des concessions (Autosphere surtout) absent de la plateforme nationale |
 | LeBonCoin | +520 | Les **particuliers**, et les concessions multimarques qui ne publient que là |
 
+> **LeBonCoin est désactivé par défaut** dans [`config.yaml`](config.yaml) : le
+> site refuse les IP de datacenter, donc celles de GitHub Actions. Il fonctionne
+> parfaitement depuis une connexion domestique — le remettre dans `sources` dès
+> que le bot tourne sur une machine derrière une box. Sans lui, la surveillance
+> couvre ~1030 véhicules au lieu de ~1200.
+
 Près de 600 voitures sont publiées sur deux sites ou plus et ne sont pourtant
 notifiées qu'une fois. Le dédoublonnage se fait sur la plaque d'immatriculation,
 que renew.auto publie directement et qu'AutoScout24 glisse dans son identifiant
@@ -438,6 +444,13 @@ prochain site :
   pire des cas pour une surveillance. La source contourne le plafond en
   découpant par tranches de prix, redécoupées en deux tant qu'elles ne tiennent
   pas sous la limite.
+- **Une source qui marche en local peut échouer en ligne.** LeBonCoin répond
+  normalement depuis une connexion domestique et refuse les IP de datacenter :
+  403 immédiat depuis GitHub Actions, qui tourne sur Azure. C'est la réputation
+  de l'adresse qui est refusée, pas la requête — aucun réglage de code n'y peut
+  quoi que ce soit. D'où son retrait de `sources` dans `config.yaml` tant que la
+  surveillance tourne sur GitHub. **Tester une nouvelle source depuis sa machine
+  ne prouve donc pas qu'elle fonctionnera en production.**
 
 Repérages faits sur les autres sites :
 
@@ -445,6 +458,6 @@ Repérages faits sur les autres sites :
 |---|---|---|
 | renew.auto | oui | **Intégré.** API JSON officielle |
 | AutoScout24 | oui | **Intégré.** Données en JSON dans `__NEXT_DATA__` |
-| LeBonCoin | oui | **Intégré.** `__NEXT_DATA__`, session neuve par requête, découpe par tranches de prix |
+| LeBonCoin | oui, **mais IP résidentielle exigée** | **Intégré.** `__NEXT_DATA__`, session neuve par requête, découpe par tranches de prix |
 | La Centrale | non (403) | Bloqué dès la première requête, cookies ou non |
 | Aramisauto, Autohero | à explorer | URLs de recherche non identifiées lors du repérage |
